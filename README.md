@@ -1,0 +1,2 @@
+# pytorch_berrt_intent_classification_and_slot_filling
+基于pytorch的中文意图识别和槽位填充
