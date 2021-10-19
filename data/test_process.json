@@ -1,0 +1,4226 @@
+[
+  {
+    "text": "电视台现在在播放什么大陆动漫",
+    "domain": "epg",
+    "intent": "QUERY",
+    "slots": {
+      "area": "大陆",
+      "category": "动漫",
+      "datetime_time": "现在"
+    }
+  },
+  {
+    "text": "张绍刚的综艺节目",
+    "domain": "video",
+    "intent": "QUERY",
+    "slots": {
+      "artist": "张绍刚",
+      "category": "节目",
+      "tag": "综艺"
+    }
+  },
+  {
+    "text": "CCTV-5节目表",
+    "domain": "epg",
+    "intent": "QUERY",
+    "slots": {
+      "tvchannel": "CCTV-5"
+    }
+  },
+  {
+    "text": "给青发短信",
+    "domain": "message",
+    "intent": "SEND",
+    "slots": {
+      "name": "青"
+    }
+  },
+  {
+    "text": "嗯咯鸡爪怎么做的。",
+    "domain": "cookbook",
+    "intent": "QUERY",
+    "slots": {
+      "ingredient": "鸡爪"
+    }
+  },
+  {
+    "text": "那会不会下雨",
+    "domain": "weather",
+    "intent": "QUERY",
+    "slots": {
+      "questionWord": "会不会",
+      "subfocus": "雨"
+    }
+  },
+  {
+    "text": "广州至南宁航班。",
+    "domain": "flight",
+    "intent": "QUERY",
+    "slots": {
+      "endLoc_city": "南宁",
+      "startLoc_city": "广州"
+    }
+  },
+  {
+    "text": "帮我搜索三国杀",
+    "domain": "app",
+    "intent": "QUERY",
+    "slots": {
+      "name": "三国杀"
+    }
+  },
+  {
+    "text": "翻译慷慨激昂",
+    "domain": "translation",
+    "intent": "TRANSLATION",
+    "slots": {
+      "content": "慷慨激昂"
+    }
+  },
+  {
+    "text": "恩，红烧土豆怎么做我想学？",
+    "domain": "cookbook",
+    "intent": "QUERY",
+    "slots": {
+      "dishName": "红烧土豆"
+    }
+  },
+  {
+    "text": "醉虾的做法。",
+    "domain": "cookbook",
+    "intent": "QUERY",
+    "slots": {
+      "dishName": "醉虾"
+    }
+  },
+  {
+    "text": "北京到成都的汽车时刻表。",
+    "domain": "bus",
+    "intent": "QUERY",
+    "slots": {
+      "Dest": "成都",
+      "Src": "北京"
+    }
+  },
+  {
+    "text": "查询明天南阳到上海的航班",
+    "domain": "flight",
+    "intent": "QUERY",
+    "slots": {
+      "endLoc_city": "上海",
+      "startDate_date": "明天",
+      "startLoc_city": "南阳"
+    }
+  },
+  {
+    "text": "来一首剑侠情缘",
+    "domain": "music",
+    "intent": "PLAY",
+    "slots": {
+      "song": "剑侠情缘"
+    }
+  },
+  {
+    "text": "草虾尾怎样做。",
+    "domain": "cookbook",
+    "intent": "QUERY",
+    "slots": {
+      "ingredient": "虾尾"
+    }
+  },
+  {
+    "text": "来首李白的诗集。",
+    "domain": "poetry",
+    "intent": "QUERY",
+    "slots": {
+      "author": "李白"
+    }
+  },
+  {
+    "text": "给庄小雷发短信",
+    "domain": "message",
+    "intent": "SEND",
+    "slots": {
+      "name": "庄小雷"
+    }
+  },
+  {
+    "text": "中国制用英文怎么说",
+    "domain": "translation",
+    "intent": "TRANSLATION",
+    "slots": {
+      "content": "中国制",
+      "target": "英文"
+    }
+  },
+  {
+    "text": "煲鸡汤。",
+    "domain": "cookbook",
+    "intent": "QUERY",
+    "slots": {
+      "dishName": "煲鸡汤"
+    }
+  },
+  {
+    "text": "打豆浆剩下的豆渣怎样做，好吃？",
+    "domain": "cookbook",
+    "intent": "QUERY",
+    "slots": {
+      "ingredient": "豆渣"
+    }
+  },
+  {
+    "text": "帮我查一下赣州到南昌的火车票",
+    "domain": "train",
+    "intent": "QUERY",
+    "slots": {
+      "endLoc_city": "南昌",
+      "startLoc_city": "赣州"
+    }
+  },
+  {
+    "text": "天王盖地虎的下一句是什么？",
+    "domain": "poetry",
+    "intent": "QUERY",
+    "slots": {
+      "keyword": "天王盖地虎",
+      "queryField": "下一句"
+    }
+  },
+  {
+    "text": "查寻上海到北京的火车票",
+    "domain": "train",
+    "intent": "QUERY",
+    "slots": {
+      "endLoc_city": "北京",
+      "startLoc_city": "上海"
+    }
+  },
+  {
+    "text": "糖醋里脊啊，啊",
+    "domain": "cookbook",
+    "intent": "QUERY",
+    "slots": {
+      "dishName": "糖醋里脊"
+    }
+  },
+  {
+    "text": "打电话给李新颖",
+    "domain": "telephone",
+    "intent": "DIAL",
+    "slots": {
+      "name": "李新颖"
+    }
+  },
+  {
+    "text": "来一首，灵岩。",
+    "domain": "poetry",
+    "intent": "QUERY",
+    "slots": {
+      "name": "灵岩"
+    }
+  },
+  {
+    "text": "蒸鸡蛋糕",
+    "domain": "cookbook",
+    "intent": "QUERY",
+    "slots": {
+      "dishName": "蒸鸡蛋糕"
+    }
+  },
+  {
+    "text": "央视精品节目",
+    "domain": "epg",
+    "intent": "QUERY",
+    "slots": {
+      "tvchannel": "央视精品"
+    }
+  },
+  {
+    "text": "打开uc二哦",
+    "domain": "app",
+    "intent": "LAUNCH",
+    "slots": {
+      "name": "uc"
+    }
+  },
+  {
+    "text": "搜索第10频道",
+    "domain": "tvchannel",
+    "intent": "PLAY",
+    "slots": {
+      "code": "10"
+    }
+  },
+  {
+    "text": "《武动乾坤》",
+    "domain": "video",
+    "intent": "QUERY",
+    "slots": {
+      "name": "武动乾坤"
+    }
+  },
+  {
+    "text": "昆山大润发在哪里",
+    "domain": "map",
+    "intent": "POSITION",
+    "slots": {
+      "location_area": "昆山",
+      "location_poi": "大润发"
+    }
+  },
+  {
+    "text": "打开苹果公司的官方网站",
+    "domain": "website",
+    "intent": "OPEN",
+    "slots": {
+      "name": "苹果公司的官方网站"
+    }
+  },
+  {
+    "text": "现在电视台在播什么",
+    "domain": "epg",
+    "intent": "QUERY",
+    "slots": {
+      "datetime_time": "现在"
+    }
+  },
+  {
+    "text": "怎么治疗牛皮癣",
+    "domain": "health",
+    "intent": "QUERY",
+    "slots": {
+      "keyword": "牛皮癣"
+    }
+  },
+  {
+    "text": "电视回看安徽卫视",
+    "domain": "epg",
+    "intent": "LOOK_BACK",
+    "slots": {
+      "tvchannel": "安徽卫视"
+    }
+  },
+  {
+    "text": "央视9",
+    "domain": "tvchannel",
+    "intent": "PLAY",
+    "slots": {
+      "name": "央视9"
+    }
+  },
+  {
+    "text": "查寻上海能源的股票",
+    "domain": "stock",
+    "intent": "QUERY",
+    "slots": {
+      "name": "上海能源"
+    }
+  },
+  {
+    "text": "那好，那你告诉我西红柿炒鸡蛋，怎么去做？",
+    "domain": "cookbook",
+    "intent": "QUERY",
+    "slots": {
+      "dishName": "西红柿炒鸡蛋"
+    }
+  },
+  {
+    "text": "南京到厦门的火车票",
+    "domain": "train",
+    "intent": "QUERY",
+    "slots": {
+      "endLoc_city": "厦门",
+      "startLoc_city": "南京"
+    }
+  },
+  {
+    "text": "胡歌忘记时间",
+    "domain": "music",
+    "intent": "PLAY",
+    "slots": {
+      "artist": "胡歌",
+      "song": "忘记时间"
+    }
+  },
+  {
+    "text": "讯飞语音我想知道山东省东营市今天的新闻。",
+    "domain": "news",
+    "intent": "PLAY",
+    "slots": {
+      "datetime_date": "今天",
+      "location_city": "东营市",
+      "location_province": "山东省"
+    }
+  },
+  {
+    "text": "搜索合肥左岸电影城。",
+    "domain": "cinemas",
+    "intent": "QUERY",
+    "slots": {
+      "theatre": "合肥左岸电影城"
+    }
+  },
+  {
+    "text": "青岛到广州航班",
+    "domain": "flight",
+    "intent": "QUERY",
+    "slots": {
+      "endLoc_city": "广州",
+      "startLoc_city": "青岛"
+    }
+  },
+  {
+    "text": "给周玉发短信",
+    "domain": "message",
+    "intent": "SEND",
+    "slots": {
+      "name": "周玉"
+    }
+  },
+  {
+    "text": "给杨李鹏发短信",
+    "domain": "message",
+    "intent": "SEND",
+    "slots": {
+      "name": "杨李鹏"
+    }
+  },
+  {
+    "text": "给我讲一个谜语吧！",
+    "domain": "riddle",
+    "intent": "QUERY",
+    "slots": {
+      "category": "谜语"
+    }
+  },
+  {
+    "text": "北京到镇江的火车",
+    "domain": "train",
+    "intent": "QUERY",
+    "slots": {
+      "endLoc_city": "镇江",
+      "startLoc_city": "北京"
+    }
+  },
+  {
+    "text": "7月25号去上海的航班。",
+    "domain": "flight",
+    "intent": "QUERY",
+    "slots": {
+      "endLoc_city": "上海",
+      "startDate_date": "7月25号"
+    }
+  },
+  {
+    "text": "坐宫保鸡丁需要哪些材料？",
+    "domain": "cookbook",
+    "intent": "QUERY",
+    "slots": {
+      "dishName": "宫保鸡丁"
+    }
+  },
+  {
+    "text": "田螺怎么炒啊？",
+    "domain": "cookbook",
+    "intent": "QUERY",
+    "slots": {
+      "ingredient": "田螺"
+    }
+  },
+  {
+    "text": "有油炸酱料怎么做？",
+    "domain": "cookbook",
+    "intent": "QUERY",
+    "slots": {
+      "dishName": "油炸酱料"
+    }
+  },
+  {
+    "text": "进入设置菜单",
+    "domain": "app",
+    "intent": "LAUNCH",
+    "slots": {
+      "name": "设置"
+    }
+  },
+  {
+    "text": "中央电视台一套现在放什么节目？",
+    "domain": "epg",
+    "intent": "QUERY",
+    "slots": {
+      "datetime_time": "现在",
+      "tvchannel": "中央电视台一套"
+    }
+  },
+  {
+    "text": "我想看中央六台的电影。",
+    "domain": "epg",
+    "intent": "QUERY",
+    "slots": {
+      "category": "电影",
+      "tvchannel": "中央六台"
+    }
+  },
+  {
+    "text": "麻烦您可不可以帮我调频99.3嘉善人民广播电台",
+    "domain": "radio",
+    "intent": "LAUNCH",
+    "slots": {
+      "code": "99.3",
+      "name": "嘉善人民广播电台"
+    }
+  },
+  {
+    "text": "打电话给一十一",
+    "domain": "telephone",
+    "intent": "DIAL",
+    "slots": {
+      "name": "一十一"
+    }
+  },
+  {
+    "text": "女人的颜色六十九集",
+    "domain": "video",
+    "intent": "QUERY",
+    "slots": {
+      "episode": "六十九集",
+      "name": "女人的颜色"
+    }
+  },
+  {
+    "text": "哦来一首传奇",
+    "domain": "music",
+    "intent": "PLAY",
+    "slots": {
+      "song": "传奇"
+    }
+  },
+  {
+    "text": "背首杜甫的诗啊？",
+    "domain": "poetry",
+    "intent": "QUERY",
+    "slots": {
+      "author": "杜甫"
+    }
+  },
+  {
+    "text": "上饶到南昌的火车票",
+    "domain": "train",
+    "intent": "QUERY",
+    "slots": {
+      "endLoc_city": "南昌",
+      "startLoc_city": "上饶"
+    }
+  },
+  {
+    "text": "发短信给贤想快点给我送早饭开门我饿死了",
+    "domain": "message",
+    "intent": "SEND",
+    "slots": {
+      "content": "想快点给我送早饭开门我饿死了",
+      "name": "贤"
+    }
+  },
+  {
+    "text": "北京烤鸭做法。",
+    "domain": "cookbook",
+    "intent": "QUERY",
+    "slots": {
+      "dishName": "北京烤鸭"
+    }
+  },
+  {
+    "text": "拨打张月华的电话",
+    "domain": "telephone",
+    "intent": "DIAL",
+    "slots": {
+      "name": "张月华"
+    }
+  },
+  {
+    "text": "唐诗登高。",
+    "domain": "poetry",
+    "intent": "QUERY",
+    "slots": {
+      "dynasty": "唐",
+      "name": "登高"
+    }
+  },
+  {
+    "text": "最近好看的小说",
+    "domain": "novel",
+    "intent": "QUERY",
+    "slots": {
+      "popularity": "好看"
+    }
+  },
+  {
+    "text": "有没有张艺谋导演的热门电影",
+    "domain": "video",
+    "intent": "QUERY",
+    "slots": {
+      "artist": "张艺谋",
+      "artistRole": "导演",
+      "category": "电影",
+      "popularity": "热门"
+    }
+  },
+  {
+    "text": "查询一下南方航空的股票",
+    "domain": "stock",
+    "intent": "QUERY",
+    "slots": {
+      "name": "南方航空"
+    }
+  },
+  {
+    "text": "有上海到昆山的火车吗",
+    "domain": "train",
+    "intent": "QUERY",
+    "slots": {
+      "endLoc_area": "昆山",
+      "startLoc_city": "上海"
+    }
+  },
+  {
+    "text": "国际象棋开局",
+    "domain": "app",
+    "intent": "LAUNCH",
+    "slots": {
+      "name": "国际象棋"
+    }
+  },
+  {
+    "text": "搜索中国移动股票",
+    "domain": "stock",
+    "intent": "QUERY",
+    "slots": {
+      "name": "中国移动"
+    }
+  },
+  {
+    "text": "打开我的网易",
+    "domain": "website",
+    "intent": "OPEN",
+    "slots": {
+      "name": "网易"
+    }
+  },
+  {
+    "text": "CCTV新闻",
+    "domain": "tvchannel",
+    "intent": "PLAY",
+    "slots": {
+      "name": "CCTV新闻"
+    }
+  },
+  {
+    "text": "文娱播报",
+    "domain": "video",
+    "intent": "QUERY",
+    "slots": {
+      "name": "文娱播报"
+    }
+  },
+  {
+    "text": "糖尿病注意什么？",
+    "domain": "health",
+    "intent": "QUERY",
+    "slots": {
+      "keyword": "糖尿病"
+    }
+  },
+  {
+    "text": "什么新闻呢",
+    "domain": "news",
+    "intent": "PLAY",
+    "slots": {}
+  },
+  {
+    "text": "查找桑拿",
+    "domain": "video",
+    "intent": "QUERY",
+    "slots": {
+      "name": "桑拿"
+    }
+  },
+  {
+    "text": "给我放一首最炫民族风。",
+    "domain": "music",
+    "intent": "PLAY",
+    "slots": {
+      "song": "最炫民族风"
+    }
+  },
+  {
+    "text": "背唐诗李白侠客行",
+    "domain": "poetry",
+    "intent": "QUERY",
+    "slots": {
+      "author": "李白",
+      "dynasty": "唐",
+      "name": "侠客行"
+    }
+  },
+  {
+    "text": "凉面。",
+    "domain": "cookbook",
+    "intent": "QUERY",
+    "slots": {
+      "dishName": "凉面"
+    }
+  },
+  {
+    "text": "蒽蒽江苏卫视有什么好节目吗？",
+    "domain": "epg",
+    "intent": "QUERY",
+    "slots": {
+      "tvchannel": "江苏卫视"
+    }
+  },
+  {
+    "text": "做南瓜饭",
+    "domain": "cookbook",
+    "intent": "QUERY",
+    "slots": {
+      "dishName": "南瓜饭"
+    }
+  },
+  {
+    "text": "欧阳震华的罪案电视剧",
+    "domain": "video",
+    "intent": "QUERY",
+    "slots": {
+      "artist": "欧阳震华",
+      "category": "电视剧",
+      "tag": "罪案"
+    }
+  },
+  {
+    "text": "12月9日北京卫视节目单",
+    "domain": "epg",
+    "intent": "QUERY",
+    "slots": {
+      "datetime_date": "12月9日",
+      "tvchannel": "北京卫视"
+    }
+  },
+  {
+    "text": "我想看一下科大讯飞的股票",
+    "domain": "stock",
+    "intent": "QUERY",
+    "slots": {
+      "name": "科大讯飞"
+    }
+  },
+  {
+    "text": "播放郁可唯的歌",
+    "domain": "music",
+    "intent": "PLAY",
+    "slots": {
+      "artist": "郁可唯"
+    }
+  },
+  {
+    "text": "打了怎么做红烧肉的做法？",
+    "domain": "cookbook",
+    "intent": "QUERY",
+    "slots": {
+      "dishName": "红烧肉"
+    }
+  },
+  {
+    "text": "韩国电视连续剧老大",
+    "domain": "video",
+    "intent": "QUERY",
+    "slots": {
+      "area": "韩国",
+      "category": "电视连续剧",
+      "name": "老大"
+    }
+  },
+  {
+    "text": "葱烧海参怎么做",
+    "domain": "cookbook",
+    "intent": "QUERY",
+    "slots": {
+      "dishName": "葱烧海参"
+    }
+  },
+  {
+    "text": "湖南卫视电视节目表",
+    "domain": "epg",
+    "intent": "QUERY",
+    "slots": {
+      "tvchannel": "湖南卫视"
+    }
+  },
+  {
+    "text": "从从合肥到北京的航班",
+    "domain": "flight",
+    "intent": "QUERY",
+    "slots": {
+      "endLoc_city": "北京",
+      "startLoc_city": "合肥"
+    }
+  },
+  {
+    "text": "用英语怎么讲",
+    "domain": "translation",
+    "intent": "TRANSLATION",
+    "slots": {
+      "content": "用",
+      "target": "英语"
+    }
+  },
+  {
+    "text": "江苏阳光的股票怎么样了",
+    "domain": "stock",
+    "intent": "QUERY",
+    "slots": {
+      "name": "江苏阳光"
+    }
+  },
+  {
+    "text": "帮我搜一下中超3月份的对阵情况",
+    "domain": "match",
+    "intent": "QUERY",
+    "slots": {
+      "category": "中超",
+      "datetime_date": "3月份"
+    }
+  },
+  {
+    "text": "查询重庆水务股票",
+    "domain": "stock",
+    "intent": "QUERY",
+    "slots": {
+      "name": "重庆水务"
+    }
+  },
+  {
+    "text": "我要听中超第二十，八轮的结果。",
+    "domain": "match",
+    "intent": "QUERY",
+    "slots": {
+      "category": "中超"
+    }
+  },
+  {
+    "text": "我想到科大讯飞怎么走",
+    "domain": "map",
+    "intent": "ROUTE",
+    "slots": {
+      "endLoc_poi": "科大讯飞"
+    }
+  },
+  {
+    "text": "谁为含愁独不见",
+    "domain": "poetry",
+    "intent": "QUERY",
+    "slots": {
+      "keyword": "谁为含愁独不见"
+    }
+  },
+  {
+    "text": "甲型肝炎。",
+    "domain": "health",
+    "intent": "QUERY",
+    "slots": {
+      "keyword": "甲型肝炎"
+    }
+  },
+  {
+    "text": "翻译我是一只狗",
+    "domain": "translation",
+    "intent": "TRANSLATION",
+    "slots": {
+      "content": "我是一只狗"
+    }
+  },
+  {
+    "text": "把李志强的号码发给贾洪鉴",
+    "domain": "message",
+    "intent": "SENDCONTACTS",
+    "slots": {
+      "name": "李志强",
+      "receiver": "贾洪鉴"
+    }
+  },
+  {
+    "text": "把许琦彪的号码发给徐鹏",
+    "domain": "message",
+    "intent": "SENDCONTACTS",
+    "slots": {
+      "name": "许琦彪",
+      "receiver": "徐鹏"
+    }
+  },
+  {
+    "text": "帮我搜索一下羊肉面片。",
+    "domain": "cookbook",
+    "intent": "QUERY",
+    "slots": {
+      "dishName": "羊肉面片"
+    }
+  },
+  {
+    "text": "看网易财经",
+    "domain": "website",
+    "intent": "OPEN",
+    "slots": {
+      "name": "网易财经"
+    }
+  },
+  {
+    "text": "南昌到广州飞机票",
+    "domain": "flight",
+    "intent": "QUERY",
+    "slots": {
+      "endLoc_city": "广州",
+      "startLoc_city": "南昌"
+    }
+  },
+  {
+    "text": "双色球的开奖号码是多少？",
+    "domain": "lottery",
+    "intent": "NUMBER_QUERY",
+    "slots": {
+      "name": "双色球"
+    }
+  },
+  {
+    "text": "现在温度几度",
+    "domain": "weather",
+    "intent": "QUERY",
+    "slots": {}
+  },
+  {
+    "text": "汽车英语怎么讲",
+    "domain": "translation",
+    "intent": "TRANSLATION",
+    "slots": {
+      "content": "汽车",
+      "target": "英语"
+    }
+  },
+  {
+    "text": "查一下潍坊到威海的火车票",
+    "domain": "train",
+    "intent": "QUERY",
+    "slots": {
+      "endLoc_city": "威海",
+      "startLoc_city": "潍坊"
+    }
+  },
+  {
+    "text": "从我这里去芙蓉区政府怎么去",
+    "domain": "map",
+    "intent": "ROUTE",
+    "slots": {
+      "endLoc_poi": "芙蓉区政府"
+    }
+  },
+  {
+    "text": "我想听音乐忘情水。",
+    "domain": "music",
+    "intent": "PLAY",
+    "slots": {
+      "song": "忘情水"
+    }
+  },
+  {
+    "text": "念个唐诗给我听。",
+    "domain": "poetry",
+    "intent": "QUERY",
+    "slots": {
+      "dynasty": "唐"
+    }
+  },
+  {
+    "text": "查询股票00230",
+    "domain": "stock",
+    "intent": "QUERY",
+    "slots": {
+      "code": "00230"
+    }
+  },
+  {
+    "text": "我想听莫失莫忘。",
+    "domain": "music",
+    "intent": "PLAY",
+    "slots": {
+      "song": "莫失莫忘"
+    }
+  },
+  {
+    "text": "打开极品飞车",
+    "domain": "app",
+    "intent": "LAUNCH",
+    "slots": {
+      "name": "极品飞车"
+    }
+  },
+  {
+    "text": "一加一用英语怎么说",
+    "domain": "translation",
+    "intent": "TRANSLATION",
+    "slots": {
+      "content": "一加一",
+      "target": "英语"
+    }
+  },
+  {
+    "text": "有什么好看的校园小说",
+    "domain": "novel",
+    "intent": "QUERY",
+    "slots": {
+      "category": "校园",
+      "popularity": "好看"
+    }
+  },
+  {
+    "text": "松江钢材城在哪里",
+    "domain": "map",
+    "intent": "POSITION",
+    "slots": {
+      "location_poi": "松江钢材城"
+    }
+  },
+  {
+    "text": "是否还有其他关于钓鱼岛的新闻",
+    "domain": "news",
+    "intent": "PLAY",
+    "slots": {
+      "keyword": "钓鱼岛"
+    }
+  },
+  {
+    "text": "我想听笨这首歌。",
+    "domain": "music",
+    "intent": "PLAY",
+    "slots": {
+      "song": "笨"
+    }
+  },
+  {
+    "text": "玉照公园怎么走",
+    "domain": "map",
+    "intent": "ROUTE",
+    "slots": {
+      "endLoc_poi": "玉照公园"
+    }
+  },
+  {
+    "text": "江西卫视三天之后放一站到底么",
+    "domain": "epg",
+    "intent": "QUERY",
+    "slots": {
+      "datetime_date": "三天之后",
+      "name": "一站到底",
+      "tvchannel": "江西卫视"
+    }
+  },
+  {
+    "text": "久久鸭怎么做？",
+    "domain": "cookbook",
+    "intent": "QUERY",
+    "slots": {
+      "dishNamet": "久久鸭"
+    }
+  },
+  {
+    "text": "来一首李煜的词。",
+    "domain": "poetry",
+    "intent": "QUERY",
+    "slots": {
+      "author": "李煜"
+    }
+  },
+  {
+    "text": "送黄炒鸡蛋怎么做？",
+    "domain": "cookbook",
+    "intent": "QUERY",
+    "slots": {
+      "dishName": "炒鸡蛋"
+    }
+  },
+  {
+    "text": "胃炎怎么治？",
+    "domain": "health",
+    "intent": "QUERY",
+    "slots": {
+      "keyword": "胃炎"
+    }
+  },
+  {
+    "text": "豆沙包。",
+    "domain": "cookbook",
+    "intent": "QUERY",
+    "slots": {
+      "dishName": "豆沙包"
+    }
+  },
+  {
+    "text": "做黄焖小土豆怎么做啊？",
+    "domain": "cookbook",
+    "intent": "QUERY",
+    "slots": {
+      "dishName": "焖小土豆"
+    }
+  },
+  {
+    "text": "真达林业的股票怎么样",
+    "domain": "stock",
+    "intent": "QUERY",
+    "slots": {
+      "name": "真达林业"
+    }
+  },
+  {
+    "text": "木瓜汤怎么做",
+    "domain": "cookbook",
+    "intent": "QUERY",
+    "slots": {
+      "dishName": "木瓜汤"
+    }
+  },
+  {
+    "text": "去汽车东站怎么走",
+    "domain": "map",
+    "intent": "ROUTE",
+    "slots": {
+      "endLoc_poi": "汽车东站"
+    }
+  },
+  {
+    "text": "零七播报新闻。",
+    "domain": "news",
+    "intent": "PLAY",
+    "slots": {}
+  },
+  {
+    "text": "熊出没啊",
+    "domain": "video",
+    "intent": "QUERY",
+    "slots": {
+      "name": "熊出没"
+    }
+  },
+  {
+    "text": "笑话用英语怎么说",
+    "domain": "translation",
+    "intent": "TRANSLATION",
+    "slots": {
+      "content": "笑话",
+      "target": "英语"
+    }
+  },
+  {
+    "text": "去南昌的火车",
+    "domain": "train",
+    "intent": "QUERY",
+    "slots": {
+      "endLoc_city": "南昌"
+    }
+  },
+  {
+    "text": "哦，听新闻。",
+    "domain": "news",
+    "intent": "PLAY",
+    "slots": {}
+  },
+  {
+    "text": "湖北卫视今天下午六点以后开始播男生女生向前冲",
+    "domain": "epg",
+    "intent": "QUERY",
+    "slots": {
+      "datetime_date": "今天",
+      "datetime_time": "下午六点以后",
+      "name": "男生女生向前冲",
+      "tvchannel": "湖北卫视"
+    }
+  },
+  {
+    "text": "糯米肉怎么做？",
+    "domain": "cookbook",
+    "intent": "QUERY",
+    "slots": {
+      "dishName": "糯米肉"
+    }
+  },
+  {
+    "text": "王志排骨怎么做",
+    "domain": "cookbook",
+    "intent": "QUERY",
+    "slots": {
+      "ingredient": "排骨"
+    }
+  },
+  {
+    "text": "给石荣福发短信",
+    "domain": "message",
+    "intent": "SEND",
+    "slots": {
+      "name": "石荣福"
+    }
+  },
+  {
+    "text": "搜索小说校园全能高手。",
+    "domain": "novel",
+    "intent": "QUERY",
+    "slots": {
+      "name": "校园全能高手"
+    }
+  },
+  {
+    "text": "做红烧肉。",
+    "domain": "cookbook",
+    "intent": "QUERY",
+    "slots": {
+      "dishName": "红烧肉"
+    }
+  },
+  {
+    "text": "帮我写个邮件",
+    "domain": "email",
+    "intent": "CREATE",
+    "slots": {}
+  },
+  {
+    "text": "八月十号从重庆到武汉的航班",
+    "domain": "flight",
+    "intent": "QUERY",
+    "slots": {
+      "endLoc_city": "武汉",
+      "startDate_date": "八月十号",
+      "startLoc_city": "重庆"
+    }
+  },
+  {
+    "text": "不是花中偏爱菊的下一句是什么？",
+    "domain": "poetry",
+    "intent": "QUERY",
+    "slots": {
+      "keyword": "不是花中偏爱菊",
+      "queryField": "下一句"
+    }
+  },
+  {
+    "text": "北京卡酷熊出没",
+    "domain": "epg",
+    "intent": "QUERY",
+    "slots": {
+      "name": "熊出没",
+      "tvchannel": "北京卡酷"
+    }
+  },
+  {
+    "text": "赵包子怎么做的，你？",
+    "domain": "cookbook",
+    "intent": "QUERY",
+    "slots": {
+      "dishName": "包子"
+    }
+  },
+  {
+    "text": "我要猜字谜不笨有答案。",
+    "domain": "riddle",
+    "intent": "QUERY",
+    "slots": {
+      "category": "字谜"
+    }
+  },
+  {
+    "text": "湖南台演什么节目",
+    "domain": "epg",
+    "intent": "QUERY",
+    "slots": {
+      "tvchannel": "湖南台"
+    }
+  },
+  {
+    "text": "中国新声代",
+    "domain": "video",
+    "intent": "QUERY",
+    "slots": {
+      "name": "中国新声代"
+    }
+  },
+  {
+    "text": "做糖醋排骨",
+    "domain": "cookbook",
+    "intent": "QUERY",
+    "slots": {
+      "dishName": "糖醋排骨"
+    }
+  },
+  {
+    "text": "基尾虾怎么做？",
+    "domain": "cookbook",
+    "intent": "QUERY",
+    "slots": {
+      "ingredient": "基尾虾"
+    }
+  },
+  {
+    "text": "潍坊到北京机票明天的",
+    "domain": "flight",
+    "intent": "QUERY",
+    "slots": {
+      "endLoc_city": "北京",
+      "startDate_date": "明天",
+      "startLoc_city": "潍坊"
+    }
+  },
+  {
+    "text": "打开索尼官方网站",
+    "domain": "website",
+    "intent": "OPEN",
+    "slots": {
+      "name": "索尼"
+    }
+  },
+  {
+    "text": "小白菜拌豆腐怎么做呀？",
+    "domain": "cookbook",
+    "intent": "QUERY",
+    "slots": {
+      "dishName": "白菜拌豆腐"
+    }
+  },
+  {
+    "text": "打开浦口新闻综合频道",
+    "domain": "tvchannel",
+    "intent": "PLAY",
+    "slots": {
+      "name": "浦口新闻综合频道"
+    }
+  },
+  {
+    "text": "查询厦门到武夷山的航班",
+    "domain": "flight",
+    "intent": "QUERY",
+    "slots": {
+      "endLoc_area": "武夷山",
+      "startLoc_city": "厦门"
+    }
+  },
+  {
+    "text": "人民公园在哪里",
+    "domain": "map",
+    "intent": "POSITION",
+    "slots": {
+      "location_poi": "人民公园"
+    }
+  },
+  {
+    "text": "中海油服股票",
+    "domain": "stock",
+    "intent": "QUERY",
+    "slots": {
+      "name": "中海油服"
+    }
+  },
+  {
+    "text": "李白的诗词",
+    "domain": "poetry",
+    "intent": "QUERY",
+    "slots": {
+      "author": "李白"
+    }
+  },
+  {
+    "text": "查雷神电影",
+    "domain": "video",
+    "intent": "QUERY",
+    "slots": {
+      "category": "电影",
+      "name": "雷神"
+    }
+  },
+  {
+    "text": "访问京东商城的网页",
+    "domain": "website",
+    "intent": "OPEN",
+    "slots": {
+      "name": "京东"
+    }
+  },
+  {
+    "text": "钛备份",
+    "domain": "app",
+    "intent": "LAUNCH",
+    "slots": {
+      "name": "钛备份"
+    }
+  },
+  {
+    "text": "广东省英德在哪里",
+    "domain": "map",
+    "intent": "POSITION",
+    "slots": {
+      "location_area": "英德",
+      "location_province": "广东省"
+    }
+  },
+  {
+    "text": "找下最近最热播的电影。",
+    "domain": "cinemas",
+    "intent": "QUERY",
+    "slots": {}
+  },
+  {
+    "text": "汽车总动员",
+    "domain": "video",
+    "intent": "QUERY",
+    "slots": {
+      "name": "汽车总动员"
+    }
+  },
+  {
+    "text": "查询安阳到郑州的动车",
+    "domain": "train",
+    "intent": "QUERY",
+    "slots": {
+      "category": "动车",
+      "endLoc_city": "郑州",
+      "startLoc_city": "安阳"
+    }
+  },
+  {
+    "text": "炸里鸡的做法。",
+    "domain": "cookbook",
+    "intent": "QUERY",
+    "slots": {
+      "dishName": "炸里鸡"
+    }
+  },
+  {
+    "text": "偏头痛怎么治？",
+    "domain": "health",
+    "intent": "QUERY",
+    "slots": {
+      "keyword": "偏头痛"
+    }
+  },
+  {
+    "text": "明天长沙到上海的航班",
+    "domain": "flight",
+    "intent": "QUERY",
+    "slots": {
+      "endLoc_city": "上海",
+      "startDate_date": "明天",
+      "startLoc_city": "长沙"
+    }
+  },
+  {
+    "text": "查询大北农的股票",
+    "domain": "stock",
+    "intent": "QUERY",
+    "slots": {
+      "name": "大北农"
+    }
+  },
+  {
+    "text": "哦我想看中央一台",
+    "domain": "tvchannel",
+    "intent": "PLAY",
+    "slots": {
+      "name": "中央一台"
+    }
+  },
+  {
+    "text": "怎么做番茄炒蛋？",
+    "domain": "cookbook",
+    "intent": "QUERY",
+    "slots": {
+      "dishName": "番茄炒蛋"
+    }
+  },
+  {
+    "text": "说一首唐诗吧！",
+    "domain": "poetry",
+    "intent": "QUERY",
+    "slots": {
+      "dynasty": "唐"
+    }
+  },
+  {
+    "text": "听听新闻。",
+    "domain": "news",
+    "intent": "PLAY",
+    "slots": {}
+  },
+  {
+    "text": "青春四十",
+    "domain": "video",
+    "intent": "QUERY",
+    "slots": {
+      "name": "青春四十"
+    }
+  },
+  {
+    "text": "给我查一下糖尿病如何治疗？",
+    "domain": "health",
+    "intent": "QUERY",
+    "slots": {
+      "keyword": "糖尿病"
+    }
+  },
+  {
+    "text": "查查一下连江到湛江的火车票",
+    "domain": "train",
+    "intent": "QUERY",
+    "slots": {
+      "endLoc_city": "湛江",
+      "startLoc_area": "连江"
+    }
+  },
+  {
+    "text": "慕斯的做法。",
+    "domain": "cookbook",
+    "intent": "QUERY",
+    "slots": {
+      "ingredient": "慕斯"
+    }
+  },
+  {
+    "text": "开启qq",
+    "domain": "app",
+    "intent": "LAUNCH",
+    "slots": {
+      "name": "qq"
+    }
+  },
+  {
+    "text": "我要答复邮件",
+    "domain": "email",
+    "intent": "REPLY",
+    "slots": {}
+  },
+  {
+    "text": "我要查找雷迪波尔电影院最新上映的大片",
+    "domain": "cinemas",
+    "intent": "QUERY",
+    "slots": {
+      "theatre": "雷迪波尔电影院"
+    }
+  },
+  {
+    "text": "从合肥去西安的火车",
+    "domain": "train",
+    "intent": "QUERY",
+    "slots": {
+      "endLoc_city": "西安",
+      "startLoc_city": "合肥"
+    }
+  },
+  {
+    "text": "打电话给陈正成",
+    "domain": "telephone",
+    "intent": "DIAL",
+    "slots": {
+      "name": "陈正成"
+    }
+  },
+  {
+    "text": "哪个台在放甄嬛",
+    "domain": "epg",
+    "intent": "QUERY",
+    "slots": {
+      "name": "甄嬛"
+    }
+  },
+  {
+    "text": "给黄杠发短信",
+    "domain": "message",
+    "intent": "SEND",
+    "slots": {
+      "name": "黄杠"
+    }
+  },
+  {
+    "text": "北京财经",
+    "domain": "tvchannel",
+    "intent": "PLAY",
+    "slots": {
+      "name": "北京财经"
+    }
+  },
+  {
+    "text": "今天温州有什么新闻。",
+    "domain": "news",
+    "intent": "PLAY",
+    "slots": {
+      "datetime_date": "今天",
+      "location_city": "温州"
+    }
+  },
+  {
+    "text": "教我怎么做红烧肉",
+    "domain": "cookbook",
+    "intent": "QUERY",
+    "slots": {
+      "dishName": "红烧肉"
+    }
+  },
+  {
+    "text": "神兵小将",
+    "domain": "video",
+    "intent": "QUERY",
+    "slots": {
+      "name": "神兵小将"
+    }
+  },
+  {
+    "text": "发信息给瀌瀌",
+    "domain": "message",
+    "intent": "SEND",
+    "slots": {
+      "name": "瀌瀌"
+    }
+  },
+  {
+    "text": "打电话给子明",
+    "domain": "telephone",
+    "intent": "DIAL",
+    "slots": {
+      "name": "子明"
+    }
+  },
+  {
+    "text": "青春期撞上更年期二",
+    "domain": "video",
+    "intent": "QUERY",
+    "slots": {
+      "name": "青春期撞上更年期二"
+    }
+  },
+  {
+    "text": "来时打来首唐诗绝句。",
+    "domain": "poetry",
+    "intent": "QUERY",
+    "slots": {
+      "dynasty": "唐",
+      "name": "绝句"
+    }
+  },
+  {
+    "text": "上美空网",
+    "domain": "website",
+    "intent": "OPEN",
+    "slots": {
+      "name": "美空网"
+    }
+  },
+  {
+    "text": "李白的将进酒。",
+    "domain": "poetry",
+    "intent": "QUERY",
+    "slots": {
+      "author": "李白",
+      "name": "将进酒"
+    }
+  },
+  {
+    "text": "花格等蛋的做法。",
+    "domain": "cookbook",
+    "intent": "QUERY",
+    "slots": {
+      "ingredient": "蛋"
+    }
+  },
+  {
+    "text": "给我背一首满江红。",
+    "domain": "poetry",
+    "intent": "QUERY",
+    "slots": {
+      "name": "满江红"
+    }
+  },
+  {
+    "text": "宫爆鸡丁的菜谱。",
+    "domain": "cookbook",
+    "intent": "QUERY",
+    "slots": {
+      "dishName": "宫爆鸡丁"
+    }
+  },
+  {
+    "text": "怎样煮酸甜排骨。",
+    "domain": "cookbook",
+    "intent": "QUERY",
+    "slots": {
+      "dishName": "酸甜排骨"
+    }
+  },
+  {
+    "text": "发短信呢",
+    "domain": "message",
+    "intent": "SEND",
+    "slots": {}
+  },
+  {
+    "text": "得了灰指甲怎么办呢？",
+    "domain": "health",
+    "intent": "QUERY",
+    "slots": {
+      "keyword": "灰指甲"
+    }
+  },
+  {
+    "text": "动画片巴啦啦小魔仙",
+    "domain": "video",
+    "intent": "QUERY",
+    "slots": {
+      "category": "片",
+      "name": "巴啦啦小魔仙",
+      "tag": "动画"
+    }
+  },
+  {
+    "text": "正者无敌",
+    "domain": "video",
+    "intent": "QUERY",
+    "slots": {
+      "name": "正者无敌"
+    }
+  },
+  {
+    "text": "收听安徽广播电台。",
+    "domain": "radio",
+    "intent": "LAUNCH",
+    "slots": {
+      "location_province": "安徽",
+      "name": "广播电台"
+    }
+  },
+  {
+    "text": "背一首春晓",
+    "domain": "poetry",
+    "intent": "QUERY",
+    "slots": {
+      "name": "春晓"
+    }
+  },
+  {
+    "text": "看中国好声音",
+    "domain": "video",
+    "intent": "QUERY",
+    "slots": {
+      "name": "中国好声音"
+    }
+  },
+  {
+    "text": "传简讯给家里",
+    "domain": "message",
+    "intent": "SEND",
+    "slots": {
+      "name": "家里"
+    }
+  },
+  {
+    "text": "你好我想看电影",
+    "domain": "video",
+    "intent": "QUERY",
+    "slots": {
+      "category": "电影"
+    }
+  },
+  {
+    "text": "你好啊，再背首诗。",
+    "domain": "poetry",
+    "intent": "DEFAULT",
+    "slots": {}
+  },
+  {
+    "text": "帮我网上订车票",
+    "domain": "train",
+    "intent": "QUERY",
+    "slots": {}
+  },
+  {
+    "text": "给熊媛媛打电话",
+    "domain": "telephone",
+    "intent": "DIAL",
+    "slots": {
+      "name": "熊媛媛"
+    }
+  },
+  {
+    "text": "买三注星期四开奖的七乐彩",
+    "domain": "lottery",
+    "intent": "NUMBER_QUERY",
+    "slots": {
+      "datetime_date": "星期四",
+      "name": "七乐彩"
+    }
+  },
+  {
+    "text": "查下上海到太原的机票",
+    "domain": "flight",
+    "intent": "QUERY",
+    "slots": {
+      "endLoc_city": "太原",
+      "startLoc_city": "上海"
+    }
+  },
+  {
+    "text": "来首青花瓷",
+    "domain": "music",
+    "intent": "PLAY",
+    "slots": {
+      "song": "青花瓷"
+    }
+  },
+  {
+    "text": "查询湛江到广州的火车票",
+    "domain": "train",
+    "intent": "QUERY",
+    "slots": {
+      "endLoc_city": "广州",
+      "startLoc_city": "湛江"
+    }
+  },
+  {
+    "text": "怎么做饭好吃？",
+    "domain": "cookbook",
+    "intent": "QUERY",
+    "slots": {
+      "dishName": "饭"
+    }
+  },
+  {
+    "text": "好无聊哇有什么好看的电影",
+    "domain": "video",
+    "intent": "QUERY",
+    "slots": {
+      "category": "电影",
+      "scoreDescr": "好看"
+    }
+  },
+  {
+    "text": "新建联系人天天",
+    "domain": "contacts",
+    "intent": "CREATE",
+    "slots": {
+      "name": "天天"
+    }
+  },
+  {
+    "text": "但是我想上腾讯网",
+    "domain": "website",
+    "intent": "OPEN",
+    "slots": {
+      "name": "腾讯网"
+    }
+  },
+  {
+    "text": "今天的新闻有什么？",
+    "domain": "news",
+    "intent": "PLAY",
+    "slots": {
+      "datetime_date": "今天"
+    }
+  },
+  {
+    "text": "帮我写一条新邮件",
+    "domain": "email",
+    "intent": "CREATE",
+    "slots": {}
+  },
+  {
+    "text": "合肥到深圳的火车票",
+    "domain": "train",
+    "intent": "QUERY",
+    "slots": {
+      "endLoc_city": "深圳",
+      "startLoc_city": "合肥"
+    }
+  },
+  {
+    "text": "来一首七言绝句。",
+    "domain": "poetry",
+    "intent": "DEFAULT",
+    "slots": {}
+  },
+  {
+    "text": "沙眼。",
+    "domain": "health",
+    "intent": "QUERY",
+    "slots": {
+      "keyword": "沙眼"
+    }
+  },
+  {
+    "text": "请帮我调频90.2连云港经济广播电台",
+    "domain": "radio",
+    "intent": "LAUNCH",
+    "slots": {
+      "code": "90.2",
+      "name": "连云港经济广播电台"
+    }
+  },
+  {
+    "text": "从济源市到河南省电信分公司怎么走",
+    "domain": "map",
+    "intent": "ROUTE",
+    "slots": {
+      "endLoc_poi": "电信分公司",
+      "endLoc_province": "河南省",
+      "startLoc_city": "济源市"
+    }
+  },
+  {
+    "text": "我要订一张到宁波的动车票",
+    "domain": "train",
+    "intent": "QUERY",
+    "slots": {
+      "category": "动车",
+      "endLoc_city": "宁波"
+    }
+  },
+  {
+    "text": "搜索岳飞的诗满江红。",
+    "domain": "poetry",
+    "intent": "QUERY",
+    "slots": {
+      "author": "岳飞",
+      "name": "满江红"
+    }
+  },
+  {
+    "text": "深圳到开封的火车",
+    "domain": "train",
+    "intent": "QUERY",
+    "slots": {
+      "endLoc_city": "开封",
+      "startLoc_city": "深圳"
+    }
+  },
+  {
+    "text": "本省农村广播",
+    "domain": "radio",
+    "intent": "LAUNCH",
+    "slots": {
+      "category": "农村",
+      "name": "本省农村广播"
+    }
+  },
+  {
+    "text": "买，来一首诗李白的诗。",
+    "domain": "poetry",
+    "intent": "QUERY",
+    "slots": {
+      "author": "李白"
+    }
+  },
+  {
+    "text": "我记住了用英文怎么讲",
+    "domain": "translation",
+    "intent": "TRANSLATION",
+    "slots": {
+      "content": "我记住了",
+      "target": "英文"
+    }
+  },
+  {
+    "text": "前天中央一套的节目单",
+    "domain": "epg",
+    "intent": "QUERY",
+    "slots": {
+      "datetime_date": "前天",
+      "tvchannel": "中央一套"
+    }
+  },
+  {
+    "text": "我想转发这封邮件",
+    "domain": "email",
+    "intent": "FORWARD",
+    "slots": {}
+  },
+  {
+    "text": "去广州的火车票",
+    "domain": "train",
+    "intent": "QUERY",
+    "slots": {
+      "endLoc_city": "广州"
+    }
+  },
+  {
+    "text": "南京火车站到南京农业大学",
+    "domain": "map",
+    "intent": "ROUTE",
+    "slots": {
+      "endLoc_poi": "南京农业大学",
+      "startLoc_city": "南京",
+      "startLoc_poi": "火车站"
+    }
+  },
+  {
+    "text": "搜索国外大片",
+    "domain": "video",
+    "intent": "QUERY",
+    "slots": {
+      "area": "国外",
+      "category": "大片"
+    }
+  },
+  {
+    "text": "查询合肥市植物园的位置",
+    "domain": "map",
+    "intent": "POSITION",
+    "slots": {
+      "location_poi": "合肥市植物园"
+    }
+  },
+  {
+    "text": "多囊肾怎么治啊？",
+    "domain": "health",
+    "intent": "QUERY",
+    "slots": {
+      "keyword": "多囊肾"
+    }
+  },
+  {
+    "text": "我想听水墨丹青这首歌",
+    "domain": "music",
+    "intent": "PLAY",
+    "slots": {
+      "song": "水墨丹青"
+    }
+  },
+  {
+    "text": "下载汉化软件",
+    "domain": "app",
+    "intent": "DOWNLOAD",
+    "slots": {
+      "name": "汉化"
+    }
+  },
+  {
+    "text": "土豆丝是怎么炒？",
+    "domain": "cookbook",
+    "intent": "QUERY",
+    "slots": {
+      "dishName": "土豆丝"
+    }
+  },
+  {
+    "text": "发信息给健美",
+    "domain": "message",
+    "intent": "SEND",
+    "slots": {
+      "name": "健美"
+    }
+  },
+  {
+    "text": "凉菜是怎么做的？",
+    "domain": "cookbook",
+    "intent": "QUERY",
+    "slots": {
+      "keyword": "凉菜"
+    }
+  },
+  {
+    "text": "我要看功夫熊猫帮我播放出来",
+    "domain": "video",
+    "intent": "QUERY",
+    "slots": {
+      "name": "功夫熊猫"
+    }
+  },
+  {
+    "text": "焦点访谈什么时候播",
+    "domain": "epg",
+    "intent": "QUERY",
+    "slots": {
+      "name": "焦点访谈"
+    }
+  },
+  {
+    "text": "来一首月亮惹的祸",
+    "domain": "music",
+    "intent": "PLAY",
+    "slots": {
+      "song": "月亮惹的祸"
+    }
+  },
+  {
+    "text": "古墓丽影",
+    "domain": "video",
+    "intent": "QUERY",
+    "slots": {
+      "name": "古墓丽影"
+    }
+  },
+  {
+    "text": "打开新闻",
+    "domain": "news",
+    "intent": "PLAY",
+    "slots": {}
+  },
+  {
+    "text": "要看名侦探柯南",
+    "domain": "video",
+    "intent": "QUERY",
+    "slots": {
+      "name": "名侦探柯南"
+    }
+  },
+  {
+    "text": "来一首宝贝对不起",
+    "domain": "music",
+    "intent": "PLAY",
+    "slots": {
+      "song": "宝贝对不起"
+    }
+  },
+  {
+    "text": "就拉下的饺子怎么做？",
+    "domain": "cookbook",
+    "intent": "QUERY",
+    "slots": {
+      "dishName": "饺子"
+    }
+  },
+  {
+    "text": "进你的官网",
+    "domain": "website",
+    "intent": "OPEN",
+    "slots": {
+      "name": "你的官网"
+    }
+  },
+  {
+    "text": "从南昌到长沙的汽车。",
+    "domain": "bus",
+    "intent": "QUERY",
+    "slots": {
+      "Dest": "长沙",
+      "Src": "南昌"
+    }
+  },
+  {
+    "text": "啊，社会新闻。",
+    "domain": "news",
+    "intent": "PLAY",
+    "slots": {
+      "category": "社会"
+    }
+  },
+  {
+    "text": "昭通到南昌的汽车。",
+    "domain": "bus",
+    "intent": "QUERY",
+    "slots": {
+      "Dest": "南昌",
+      "Src": "昭通"
+    }
+  },
+  {
+    "text": "凉皮的制作方法。",
+    "domain": "cookbook",
+    "intent": "QUERY",
+    "slots": {
+      "dishName": "凉皮"
+    }
+  },
+  {
+    "text": "聚友网",
+    "domain": "website",
+    "intent": "OPEN",
+    "slots": {
+      "name": "聚友网"
+    }
+  },
+  {
+    "text": "上海到合肥怎么坐汽车？",
+    "domain": "bus",
+    "intent": "QUERY",
+    "slots": {
+      "Dest": "合肥",
+      "Src": "上海"
+    }
+  },
+  {
+    "text": "现在有什么好的电视剧。",
+    "domain": "epg",
+    "intent": "QUERY",
+    "slots": {
+      "category": "电视剧",
+      "datetime_time": "现在"
+    }
+  },
+  {
+    "text": "带我去新都会",
+    "domain": "map",
+    "intent": "ROUTE",
+    "slots": {
+      "endLoc_poi": "新都会"
+    }
+  },
+  {
+    "text": "胃溃疡。",
+    "domain": "health",
+    "intent": "QUERY",
+    "slots": {
+      "keyword": "胃溃疡"
+    }
+  },
+  {
+    "text": "我不吃英文怎么讲",
+    "domain": "translation",
+    "intent": "TRANSLATION",
+    "slots": {
+      "content": "我不吃",
+      "target": "英文"
+    }
+  },
+  {
+    "text": "爱情工寓",
+    "domain": "video",
+    "intent": "QUERY",
+    "slots": {
+      "name": "爱情工寓"
+    }
+  },
+  {
+    "text": "我要查彩票的开奖信息。",
+    "domain": "lottery",
+    "intent": "NUMBER_QUERY",
+    "slots": {}
+  },
+  {
+    "text": "收看安徽卫视节目。",
+    "domain": "epg",
+    "intent": "QUERY",
+    "slots": {
+      "tvchannel": "安徽卫视"
+    }
+  },
+  {
+    "text": "今天的天气真是好用英语怎么说",
+    "domain": "translation",
+    "intent": "TRANSLATION",
+    "slots": {
+      "content": "今天的天气真是好",
+      "target": "英语"
+    }
+  },
+  {
+    "text": "胜者即是正义",
+    "domain": "video",
+    "intent": "QUERY",
+    "slots": {
+      "name": "胜者即是正义"
+    }
+  },
+  {
+    "text": "查询沿途的KTV",
+    "domain": "map",
+    "intent": "POSITION",
+    "slots": {
+      "location_poi": "KTV"
+    }
+  },
+  {
+    "text": "打开河南英东网站",
+    "domain": "website",
+    "intent": "OPEN",
+    "slots": {
+      "name": "河南英东"
+    }
+  },
+  {
+    "text": "请告诉我清蒸桂鱼怎么做？",
+    "domain": "cookbook",
+    "intent": "QUERY",
+    "slots": {
+      "dishName": "清蒸桂鱼"
+    }
+  },
+  {
+    "text": "周六晚上重庆卫视有转播神探高伦布吗",
+    "domain": "epg",
+    "intent": "QUERY",
+    "slots": {
+      "datetime_date": "周六",
+      "datetime_time": "晚上",
+      "name": "神探高伦布",
+      "tvchannel": "重庆卫视"
+    }
+  },
+  {
+    "text": "从这里去瑞金路怎么走",
+    "domain": "map",
+    "intent": "ROUTE",
+    "slots": {
+      "endLoc_poi": "瑞金路"
+    }
+  },
+  {
+    "text": "给谢小培发短信今晚一起吃饭",
+    "domain": "message",
+    "intent": "SEND",
+    "slots": {
+      "content": "今晚一起吃饭",
+      "name": "谢小培"
+    }
+  },
+  {
+    "text": "调到新疆综艺",
+    "domain": "tvchannel",
+    "intent": "PLAY",
+    "slots": {
+      "name": "新疆综艺"
+    }
+  },
+  {
+    "text": "张培的电话号码是多少",
+    "domain": "telephone",
+    "intent": "QUERY",
+    "slots": {
+      "name": "张培"
+    }
+  },
+  {
+    "text": "给我来首诗。",
+    "domain": "poetry",
+    "intent": "DEFAULT",
+    "slots": {}
+  },
+  {
+    "text": "你会猜谜语吗？",
+    "domain": "riddle",
+    "intent": "QUERY",
+    "slots": {
+      "category": "谜语"
+    }
+  },
+  {
+    "text": "打开宽带商务网站",
+    "domain": "website",
+    "intent": "OPEN",
+    "slots": {
+      "name": "宽带商务网站"
+    }
+  },
+  {
+    "text": "电影频道明天放什么",
+    "domain": "epg",
+    "intent": "QUERY",
+    "slots": {
+      "datetime_date": "明天",
+      "tvchannel": "电影频道"
+    }
+  },
+  {
+    "text": "发信息给熊伟",
+    "domain": "message",
+    "intent": "SEND",
+    "slots": {
+      "name": "熊伟"
+    }
+  },
+  {
+    "text": "电影钢铁侠并论。",
+    "domain": "cinemas",
+    "intent": "QUERY",
+    "slots": {
+      "film": "钢铁侠"
+    }
+  },
+  {
+    "text": "哪个频道演爸爸去哪儿",
+    "domain": "epg",
+    "intent": "QUERY",
+    "slots": {
+      "name": "爸爸去哪儿"
+    }
+  },
+  {
+    "text": "说话的英文怎么写",
+    "domain": "translation",
+    "intent": "TRANSLATION",
+    "slots": {
+      "content": "说话",
+      "target": "英文"
+    }
+  },
+  {
+    "text": "打开科大讯飞网站",
+    "domain": "website",
+    "intent": "OPEN",
+    "slots": {
+      "name": "科大讯飞"
+    }
+  },
+  {
+    "text": "请帮我调频105.8南京人民广播电台音乐台",
+    "domain": "radio",
+    "intent": "LAUNCH",
+    "slots": {
+      "code": "105.8",
+      "name": "南京人民广播电台音乐台"
+    }
+  },
+  {
+    "text": "北京西站在哪",
+    "domain": "map",
+    "intent": "POSITION",
+    "slots": {
+      "location_poi": "北京西站"
+    }
+  },
+  {
+    "text": "满秋",
+    "domain": "video",
+    "intent": "QUERY",
+    "slots": {
+      "name": "满秋"
+    }
+  },
+  {
+    "text": "红烧牛肉面我想来一碗。",
+    "domain": "cookbook",
+    "intent": "QUERY",
+    "slots": {
+      "dishName": "红烧牛肉面"
+    }
+  },
+  {
+    "text": "打开会说话的汤姆猫",
+    "domain": "app",
+    "intent": "LAUNCH",
+    "slots": {
+      "name": "会说话的汤姆猫"
+    }
+  },
+  {
+    "text": "明天回广州的航班",
+    "domain": "flight",
+    "intent": "QUERY",
+    "slots": {
+      "endLoc_city": "广州",
+      "startDate_date": "明天"
+    }
+  },
+  {
+    "text": "猫眼三姐妹",
+    "domain": "video",
+    "intent": "QUERY",
+    "slots": {
+      "name": "猫眼三姐妹"
+    }
+  },
+  {
+    "text": "我给我念一首李白的诗吧？",
+    "domain": "poetry",
+    "intent": "QUERY",
+    "slots": {
+      "author": "李白"
+    }
+  },
+  {
+    "text": "来首纳兰性德的词。",
+    "domain": "poetry",
+    "intent": "QUERY",
+    "slots": {
+      "author": "纳兰性德"
+    }
+  },
+  {
+    "text": "在合肥怎么坐去南京的汽车",
+    "domain": "bus",
+    "intent": "QUERY",
+    "slots": {
+      "Dest": "南京",
+      "Src": "合肥"
+    }
+  },
+  {
+    "text": "芒果西米露怎么做啊",
+    "domain": "cookbook",
+    "intent": "QUERY",
+    "slots": {
+      "dishName": "芒果西米露"
+    }
+  },
+  {
+    "text": "上一期双色球开什么",
+    "domain": "lottery",
+    "intent": "NUMBER_QUERY",
+    "slots": {
+      "name": "双色球",
+      "relIssue": "上一期"
+    }
+  },
+  {
+    "text": "静脉曲张怎么治疗？哦？",
+    "domain": "health",
+    "intent": "QUERY",
+    "slots": {
+      "keyword": "静脉曲张"
+    }
+  },
+  {
+    "text": "素烩汤。",
+    "domain": "cookbook",
+    "intent": "QUERY",
+    "slots": {
+      "dishName": "素烩汤"
+    }
+  },
+  {
+    "text": "唐代诗人李白。",
+    "domain": "poetry",
+    "intent": "QUERY",
+    "slots": {
+      "author": "李白",
+      "dynasty": "唐"
+    }
+  },
+  {
+    "text": "酒鬼花生怎么做？",
+    "domain": "cookbook",
+    "intent": "QUERY",
+    "slots": {
+      "dishName": "酒鬼花生"
+    }
+  },
+  {
+    "text": "红烧猪脚",
+    "domain": "cookbook",
+    "intent": "QUERY",
+    "slots": {
+      "dishName": "红烧猪脚"
+    }
+  },
+  {
+    "text": "痛经。",
+    "domain": "health",
+    "intent": "QUERY",
+    "slots": {
+      "keyword": "痛经"
+    }
+  },
+  {
+    "text": "打电话给张帕楼",
+    "domain": "telephone",
+    "intent": "DIAL",
+    "slots": {
+      "name": "张帕楼"
+    }
+  },
+  {
+    "text": "请查询一下深圳飞往上海的航班",
+    "domain": "flight",
+    "intent": "QUERY",
+    "slots": {
+      "endLoc_city": "上海",
+      "startLoc_city": "深圳"
+    }
+  },
+  {
+    "text": "永高股份的股票",
+    "domain": "stock",
+    "intent": "QUERY",
+    "slots": {
+      "name": "永高股份"
+    }
+  },
+  {
+    "text": "发短信给张全三移动的号码我今天请他吃法",
+    "domain": "message",
+    "intent": "SEND",
+    "slots": {
+      "content": "我今天请他吃法",
+      "name": "张全三",
+      "teleOperator": "移动"
+    }
+  },
+  {
+    "text": "湖南卫视现在演什么节目",
+    "domain": "epg",
+    "intent": "QUERY",
+    "slots": {
+      "datetime_time": "现在",
+      "tvchannel": "湖南卫视"
+    }
+  },
+  {
+    "text": "打给宋成钢",
+    "domain": "telephone",
+    "intent": "DIAL",
+    "slots": {
+      "name": "宋成钢"
+    }
+  },
+  {
+    "text": "打开音乐播放器",
+    "domain": "app",
+    "intent": "LAUNCH",
+    "slots": {
+      "name": "音乐播放器"
+    }
+  },
+  {
+    "text": "钢铁侠三",
+    "domain": "video",
+    "intent": "QUERY",
+    "slots": {
+      "name": "钢铁侠三"
+    }
+  },
+  {
+    "text": "我要看现代言情小说",
+    "domain": "novel",
+    "intent": "QUERY",
+    "slots": {
+      "category": "现代言情"
+    }
+  },
+  {
+    "text": "明天去桂林的航班。",
+    "domain": "flight",
+    "intent": "QUERY",
+    "slots": {
+      "endLoc_city": "桂林",
+      "startDate_date": "明天"
+    }
+  },
+  {
+    "text": "回锅肉怎么做啊",
+    "domain": "cookbook",
+    "intent": "QUERY",
+    "slots": {
+      "dishName": "回锅肉"
+    }
+  },
+  {
+    "text": "当婆婆遇上妈",
+    "domain": "video",
+    "intent": "QUERY",
+    "slots": {
+      "name": "当婆婆遇上妈"
+    }
+  },
+  {
+    "text": "宁波一台",
+    "domain": "tvchannel",
+    "intent": "PLAY",
+    "slots": {
+      "name": "宁波一台"
+    }
+  },
+  {
+    "text": "导航到石化小学",
+    "domain": "map",
+    "intent": "ROUTE",
+    "slots": {
+      "endLoc_poi": "石化小学"
+    }
+  },
+  {
+    "text": "怎么做京酱肉丝。",
+    "domain": "cookbook",
+    "intent": "QUERY",
+    "slots": {
+      "dishName": "京酱肉丝"
+    }
+  },
+  {
+    "text": "讲点新闻",
+    "domain": "news",
+    "intent": "PLAY",
+    "slots": {}
+  },
+  {
+    "text": "给夏磊发短信",
+    "domain": "message",
+    "intent": "SEND",
+    "slots": {
+      "name": "夏磊"
+    }
+  },
+  {
+    "text": "帮我订明天早晨的机票",
+    "domain": "flight",
+    "intent": "QUERY",
+    "slots": {
+      "startDate_date": "明天",
+      "startDate_time": "早晨"
+    }
+  },
+  {
+    "text": "播放音乐喜帖街。",
+    "domain": "music",
+    "intent": "PLAY",
+    "slots": {
+      "song": "喜帖街"
+    }
+  },
+  {
+    "text": "怎么炒番茄炒？",
+    "domain": "cookbook",
+    "intent": "QUERY",
+    "slots": {
+      "dishName": "炒番茄"
+    }
+  },
+  {
+    "text": "梅毒怎么治疗？",
+    "domain": "health",
+    "intent": "QUERY",
+    "slots": {
+      "keyword": "梅毒"
+    }
+  },
+  {
+    "text": "13年的电影",
+    "domain": "video",
+    "intent": "QUERY",
+    "slots": {
+      "category": "电影",
+      "datetime_date": "13年"
+    }
+  },
+  {
+    "text": "炖鸡",
+    "domain": "cookbook",
+    "intent": "QUERY",
+    "slots": {
+      "dishName": "炖鸡"
+    }
+  },
+  {
+    "text": "电影搜索啊！",
+    "domain": "cinemas",
+    "intent": "QUERY",
+    "slots": {}
+  },
+  {
+    "text": "做蛋挞怎么做",
+    "domain": "cookbook",
+    "intent": "QUERY",
+    "slots": {
+      "dishName": "蛋挞"
+    }
+  },
+  {
+    "text": "浙江电视台",
+    "domain": "tvchannel",
+    "intent": "PLAY",
+    "slots": {
+      "name": "浙江电视台"
+    }
+  },
+  {
+    "text": "全部应答",
+    "domain": "email",
+    "intent": "REPLAY_ALL",
+    "slots": {}
+  },
+  {
+    "text": "培根金针菇怎么做？",
+    "domain": "cookbook",
+    "intent": "QUERY",
+    "slots": {
+      "dishName": "培根金针菇"
+    }
+  },
+  {
+    "text": "亚洲能源物流股票",
+    "domain": "stock",
+    "intent": "QUERY",
+    "slots": {
+      "name": "亚洲能源物流"
+    }
+  },
+  {
+    "text": "帮我查一下明天广州到长沙的航班",
+    "domain": "flight",
+    "intent": "QUERY",
+    "slots": {
+      "endLoc_city": "长沙",
+      "startDate_date": "明天",
+      "startLoc_city": "广州"
+    }
+  },
+  {
+    "text": "明天去蚌埠的车票",
+    "domain": "train",
+    "intent": "QUERY",
+    "slots": {
+      "endLoc_city": "蚌埠",
+      "startDate_date": "明天"
+    }
+  },
+  {
+    "text": "过油肉土豆片怎么做？",
+    "domain": "cookbook",
+    "intent": "QUERY",
+    "slots": {
+      "dishName": "过油肉土豆片"
+    }
+  },
+  {
+    "text": "去湘江",
+    "domain": "map",
+    "intent": "ROUTE",
+    "slots": {
+      "endLoc_poi": "湘江"
+    }
+  },
+  {
+    "text": "发信息给陈明哲",
+    "domain": "message",
+    "intent": "SEND",
+    "slots": {
+      "name": "陈明哲"
+    }
+  },
+  {
+    "text": "我是个女的，你知道怎样治脱发吗",
+    "domain": "health",
+    "intent": "QUERY",
+    "slots": {
+      "keyword": "脱发"
+    }
+  },
+  {
+    "text": "我想上qq",
+    "domain": "app",
+    "intent": "LAUNCH",
+    "slots": {
+      "name": "qq"
+    }
+  },
+  {
+    "text": "炖鲢鱼怎么做？",
+    "domain": "cookbook",
+    "intent": "QUERY",
+    "slots": {
+      "dishName": "炖鲢鱼"
+    }
+  },
+  {
+    "text": "金瓶梅",
+    "domain": "video",
+    "intent": "QUERY",
+    "slots": {
+      "name": "金瓶梅"
+    }
+  },
+  {
+    "text": "把哥哥的电话发给殷龙",
+    "domain": "message",
+    "intent": "SENDCONTACTS",
+    "slots": {
+      "name": "哥哥",
+      "receiver": "殷龙"
+    }
+  },
+  {
+    "text": "如何治疗颈椎病。",
+    "domain": "health",
+    "intent": "QUERY",
+    "slots": {
+      "keyword": "颈椎病"
+    }
+  },
+  {
+    "text": "武汉到北京的飞机票",
+    "domain": "flight",
+    "intent": "QUERY",
+    "slots": {
+      "endLoc_city": "北京",
+      "startLoc_city": "武汉"
+    }
+  },
+  {
+    "text": "龙岩新闻",
+    "domain": "news",
+    "intent": "PLAY",
+    "slots": {
+      "location_city": "龙岩"
+    }
+  },
+  {
+    "text": "油焖大虾怎么做",
+    "domain": "cookbook",
+    "intent": "QUERY",
+    "slots": {
+      "dishName": "油焖大虾"
+    }
+  },
+  {
+    "text": "银耳莲子粥怎么做",
+    "domain": "cookbook",
+    "intent": "QUERY",
+    "slots": {
+      "dishName": "银耳莲子粥"
+    }
+  },
+  {
+    "text": "发短信方钰玲",
+    "domain": "message",
+    "intent": "SEND",
+    "slots": {
+      "name": "方钰玲"
+    }
+  },
+  {
+    "text": "打电话给吴荣因",
+    "domain": "telephone",
+    "intent": "DIAL",
+    "slots": {
+      "name": "吴荣因"
+    }
+  },
+  {
+    "text": "中国霸王花",
+    "domain": "video",
+    "intent": "QUERY",
+    "slots": {
+      "name": "中国霸王花"
+    }
+  },
+  {
+    "text": "我想知道环球影视明天播放什么电影",
+    "domain": "cinemas",
+    "intent": "QUERY",
+    "slots": {
+      "datetime_date": "明天"
+    }
+  },
+  {
+    "text": "鸡蛋怎么做？",
+    "domain": "cookbook",
+    "intent": "QUERY",
+    "slots": {
+      "ingredient": "鸡蛋"
+    }
+  },
+  {
+    "text": "来一首我们的歌谣。",
+    "domain": "music",
+    "intent": "PLAY",
+    "slots": {
+      "song": "我们的歌谣"
+    }
+  },
+  {
+    "text": "熊出没是几点开始播放。",
+    "domain": "epg",
+    "intent": "QUERY",
+    "slots": {
+      "name": "熊出没"
+    }
+  },
+  {
+    "text": "我看呀中央五台",
+    "domain": "tvchannel",
+    "intent": "PLAY",
+    "slots": {
+      "name": "中央五台"
+    }
+  },
+  {
+    "text": "中国教育电视台三台",
+    "domain": "tvchannel",
+    "intent": "PLAY",
+    "slots": {
+      "name": "中国教育电视台三台"
+    }
+  },
+  {
+    "text": "你背首唐诗给我听听啊",
+    "domain": "poetry",
+    "intent": "QUERY",
+    "slots": {
+      "dynasty": "唐"
+    }
+  },
+  {
+    "text": "天津电视台的国际频道，拜托了哈",
+    "domain": "tvchannel",
+    "intent": "PLAY",
+    "slots": {
+      "category": "国际",
+      "name": "天津电视台"
+    }
+  },
+  {
+    "text": "九月二十号广州飞北京的航班",
+    "domain": "flight",
+    "intent": "QUERY",
+    "slots": {
+      "endLoc_city": "北京",
+      "startDate_date": "九月二十号",
+      "startLoc_city": "广州"
+    }
+  },
+  {
+    "text": "清蒸武昌鱼。",
+    "domain": "cookbook",
+    "intent": "QUERY",
+    "slots": {
+      "dishName": "清蒸武昌鱼"
+    }
+  },
+  {
+    "text": "菠萝咕老肉的做法",
+    "domain": "cookbook",
+    "intent": "QUERY",
+    "slots": {
+      "dishName": "菠萝咕老肉"
+    }
+  },
+  {
+    "text": "查一查同方股份的股票",
+    "domain": "stock",
+    "intent": "QUERY",
+    "slots": {
+      "name": "同方股份"
+    }
+  },
+  {
+    "text": "打开个性闹钟",
+    "domain": "app",
+    "intent": "LAUNCH",
+    "slots": {
+      "name": "个性闹钟"
+    }
+  },
+  {
+    "text": "抬头见喜",
+    "domain": "video",
+    "intent": "QUERY",
+    "slots": {
+      "name": "抬头见喜"
+    }
+  },
+  {
+    "text": "做红烧鱼的步骤。",
+    "domain": "cookbook",
+    "intent": "QUERY",
+    "slots": {
+      "dishName": "红烧鱼"
+    }
+  },
+  {
+    "text": "我想看新闻。",
+    "domain": "news",
+    "intent": "PLAY",
+    "slots": {}
+  },
+  {
+    "text": "我要点新闻。",
+    "domain": "news",
+    "intent": "PLAY",
+    "slots": {}
+  },
+  {
+    "text": "拌面该怎么做？",
+    "domain": "cookbook",
+    "intent": "QUERY",
+    "slots": {
+      "dishName": "拌面"
+    }
+  },
+  {
+    "text": "苏泊尔股价大跌",
+    "domain": "stock",
+    "intent": "QUERY",
+    "slots": {
+      "name": "苏泊尔"
+    }
+  },
+  {
+    "text": "我要听流行歌曲",
+    "domain": "music",
+    "intent": "PLAY",
+    "slots": {
+      "category": "流行"
+    }
+  },
+  {
+    "text": "把高建清的号码发给潘青华",
+    "domain": "message",
+    "intent": "SENDCONTACTS",
+    "slots": {
+      "name": "高建清",
+      "receiver": "潘青华"
+    }
+  },
+  {
+    "text": "到贵阳的航班。",
+    "domain": "flight",
+    "intent": "QUERY",
+    "slots": {
+      "endLoc_city": "贵阳"
+    }
+  },
+  {
+    "text": "帮我找一找龙门飞甲",
+    "domain": "video",
+    "intent": "QUERY",
+    "slots": {
+      "name": "龙门飞甲"
+    }
+  },
+  {
+    "text": "安徽合力股票",
+    "domain": "stock",
+    "intent": "QUERY",
+    "slots": {
+      "name": "安徽合力"
+    }
+  },
+  {
+    "text": "搜索最近的，科幻电影。",
+    "domain": "video",
+    "intent": "QUERY",
+    "slots": {
+      "category": "电影",
+      "tag": "科幻",
+      "timeDescr": "最近"
+    }
+  },
+  {
+    "text": "腾讯股票昨日收盘价",
+    "domain": "stock",
+    "intent": "CLOSEPRICE_QUERY",
+    "slots": {
+      "name": "腾讯",
+      "yesterday": "昨日"
+    }
+  },
+  {
+    "text": "富瑞特装股票",
+    "domain": "stock",
+    "intent": "QUERY",
+    "slots": {
+      "name": "富瑞特装"
+    }
+  },
+  {
+    "text": "甲鱼，邓鸡，如何制作。",
+    "domain": "cookbook",
+    "intent": "QUERY",
+    "slots": {
+      "ingredient": "鸡"
+    }
+  },
+  {
+    "text": "猪肚鸡怎么做啊？",
+    "domain": "cookbook",
+    "intent": "QUERY",
+    "slots": {
+      "dishName": "猪肚鸡"
+    }
+  },
+  {
+    "text": "给查乐发短信",
+    "domain": "message",
+    "intent": "SEND",
+    "slots": {
+      "name": "查乐"
+    }
+  },
+  {
+    "text": "我要看新闻玩不？",
+    "domain": "news",
+    "intent": "PLAY",
+    "slots": {}
+  },
+  {
+    "text": "查找张伟军",
+    "domain": "contacts",
+    "intent": "NaN",
+    "slots": {
+      "name": "张伟军"
+    }
+  },
+  {
+    "text": "来一首纳兰性德的词。",
+    "domain": "poetry",
+    "intent": "QUERY",
+    "slots": {
+      "author": "纳兰性德"
+    }
+  },
+  {
+    "text": "打电话给黄组织",
+    "domain": "telephone",
+    "intent": "DIAL",
+    "slots": {
+      "name": "黄组织"
+    }
+  },
+  {
+    "text": "红薯粉的做法，了。",
+    "domain": "cookbook",
+    "intent": "QUERY",
+    "slots": {
+      "ingredient": "红薯粉"
+    }
+  },
+  {
+    "text": "搜索声控安卓软件",
+    "domain": "app",
+    "intent": "QUERY",
+    "slots": {
+      "name": "声控安卓"
+    }
+  },
+  {
+    "text": "随便来首刘德华的歌。",
+    "domain": "music",
+    "intent": "PLAY",
+    "slots": {
+      "artist": "刘德华"
+    }
+  },
+  {
+    "text": "查一下合肥到淮南明天的火车",
+    "domain": "train",
+    "intent": "QUERY",
+    "slots": {
+      "endLoc_city": "淮南",
+      "startDate_date": "明天",
+      "startLoc_city": "合肥"
+    }
+  },
+  {
+    "text": "郑州到许昌的火车",
+    "domain": "train",
+    "intent": "QUERY",
+    "slots": {
+      "endLoc_city": "许昌",
+      "startLoc_city": "郑州"
+    }
+  },
+  {
+    "text": "江苏教育台",
+    "domain": "tvchannel",
+    "intent": "PLAY",
+    "slots": {
+      "name": "江苏教育台"
+    }
+  },
+  {
+    "text": "告诉我西安的位置",
+    "domain": "map",
+    "intent": "POSITION",
+    "slots": {
+      "location_city": "西安"
+    }
+  },
+  {
+    "text": "咳嗽怎么治？",
+    "domain": "health",
+    "intent": "QUERY",
+    "slots": {
+      "keyword": "咳嗽"
+    }
+  },
+  {
+    "text": "睡觉用英文怎么说",
+    "domain": "translation",
+    "intent": "TRANSLATION",
+    "slots": {
+      "content": "睡觉",
+      "target": "英文"
+    }
+  },
+  {
+    "text": "我想看喜羊羊",
+    "domain": "video",
+    "intent": "QUERY",
+    "slots": {
+      "name": "喜羊羊"
+    }
+  },
+  {
+    "text": "查询柳州到昆明的列车",
+    "domain": "train",
+    "intent": "QUERY",
+    "slots": {
+      "endLoc_city": "昆明",
+      "startLoc_city": "柳州"
+    }
+  },
+  {
+    "text": "毛阿敏的歌",
+    "domain": "music",
+    "intent": "PLAY",
+    "slots": {
+      "artist": "毛阿敏"
+    }
+  },
+  {
+    "text": "CCTV-10的百家讲坛",
+    "domain": "epg",
+    "intent": "QUERY",
+    "slots": {
+      "name": "百家讲坛",
+      "tvchannel": "CCTV-10"
+    }
+  },
+  {
+    "text": "网上最火的小说有哪些",
+    "domain": "novel",
+    "intent": "QUERY",
+    "slots": {
+      "popularity": "最火"
+    }
+  },
+  {
+    "text": "广州恒大亚冠联赛，比赛时间。",
+    "domain": "match",
+    "intent": "QUERY",
+    "slots": {
+      "category": "亚冠联赛",
+      "name": "广州恒大"
+    }
+  },
+  {
+    "text": "不，做个红烧肉怎么做？",
+    "domain": "cookbook",
+    "intent": "QUERY",
+    "slots": {
+      "dishName": "红烧肉"
+    }
+  },
+  {
+    "text": "包钢稀土股票价格",
+    "domain": "stock",
+    "intent": "QUERY",
+    "slots": {
+      "name": "包钢稀土"
+    }
+  },
+  {
+    "text": "你不会念唐诗吗？",
+    "domain": "poetry",
+    "intent": "QUERY",
+    "slots": {
+      "dynasty": "唐"
+    }
+  },
+  {
+    "text": "打开节目搜索",
+    "domain": "video",
+    "intent": "QUERY",
+    "slots": {
+      "category": "节目"
+    }
+  },
+  {
+    "text": "如何治疗脚臭。",
+    "domain": "health",
+    "intent": "QUERY",
+    "slots": {
+      "keyword": "脚臭"
+    }
+  },
+  {
+    "text": "查一下明天青岛飞往上海的飞机都有哪一些都是几点的",
+    "domain": "flight",
+    "intent": "QUERY",
+    "slots": {
+      "endLoc_city": "上海",
+      "startDate_date": "明天",
+      "startLoc_city": "青岛"
+    }
+  },
+  {
+    "text": "男性节育",
+    "domain": "health",
+    "intent": "QUERY",
+    "slots": {
+      "keyword": "男性节育"
+    }
+  },
+  {
+    "text": "给万结打电话",
+    "domain": "telephone",
+    "intent": "DIAL",
+    "slots": {
+      "name": "万结"
+    }
+  },
+  {
+    "text": "怎么烧西红柿炒蛋",
+    "domain": "cookbook",
+    "intent": "QUERY",
+    "slots": {
+      "dishName": "西红柿炒蛋"
+    }
+  },
+  {
+    "text": "出一个谜语给我猜猜吧！",
+    "domain": "riddle",
+    "intent": "QUERY",
+    "slots": {
+      "category": "谜语"
+    }
+  },
+  {
+    "text": "合肥到上海可以到哪坐车？",
+    "domain": "bus",
+    "intent": "QUERY",
+    "slots": {
+      "Dest": "上海",
+      "Src": "合肥"
+    }
+  },
+  {
+    "text": "上海到苏州",
+    "domain": "map",
+    "intent": "ROUTE",
+    "slots": {
+      "endLoc_city": "苏州",
+      "startLoc_city": "上海"
+    }
+  },
+  {
+    "text": "安徽电视台12月18号晚上10:10的电视剧",
+    "domain": "epg",
+    "intent": "QUERY",
+    "slots": {
+      "category": "电视剧",
+      "datetime_date": "2月18号",
+      "datetime_time": "晚上10:10",
+      "tvchannel": "安徽电视台"
+    }
+  },
+  {
+    "text": "安安昨天11:07的风华国乐",
+    "domain": "epg",
+    "intent": "QUERY",
+    "slots": {
+      "datetime_date": "昨天",
+      "datetime_time": "11:07",
+      "tvchannel": "风华国乐"
+    }
+  },
+  {
+    "text": "请问鱼块的做法。",
+    "domain": "cookbook",
+    "intent": "QUERY",
+    "slots": {
+      "ingredient": "鱼块"
+    }
+  },
+  {
+    "text": "从武汉到呼和浩特",
+    "domain": "map",
+    "intent": "ROUTE",
+    "slots": {
+      "endLoc_city": "呼和浩特",
+      "startLoc_city": "武汉"
+    }
+  },
+  {
+    "text": "热门电影有哪些啊？",
+    "domain": "cinemas",
+    "intent": "QUERY",
+    "slots": {}
+  },
+  {
+    "text": "我想看董浩配音的动漫",
+    "domain": "video",
+    "intent": "QUERY",
+    "slots": {
+      "artist": "董浩",
+      "artistRole": "配音",
+      "category": "动漫"
+    }
+  },
+  {
+    "text": "人福医药股票",
+    "domain": "stock",
+    "intent": "QUERY",
+    "slots": {
+      "name": "人福医药"
+    }
+  },
+  {
+    "text": "香蕉的英语怎么说",
+    "domain": "translation",
+    "intent": "TRANSLATION",
+    "slots": {
+      "content": "香蕉",
+      "target": "英语"
+    }
+  },
+  {
+    "text": "天机富春山居图",
+    "domain": "video",
+    "intent": "QUERY",
+    "slots": {
+      "name": "天机富春山居图"
+    }
+  },
+  {
+    "text": "肉炒饭怎么做？",
+    "domain": "cookbook",
+    "intent": "QUERY",
+    "slots": {
+      "dishName": "肉炒饭"
+    }
+  },
+  {
+    "text": "打电话给胖头",
+    "domain": "telephone",
+    "intent": "DIAL",
+    "slots": {
+      "name": "胖头"
+    }
+  },
+  {
+    "text": "小孩子有肺炎的治疗方法有哪些？",
+    "domain": "health",
+    "intent": "QUERY",
+    "slots": {
+      "keyword": "肺炎"
+    }
+  },
+  {
+    "text": "蛋糕可以做蛋糕吗？",
+    "domain": "cookbook",
+    "intent": "QUERY",
+    "slots": {
+      "dishName": "蛋糕"
+    }
+  },
+  {
+    "text": "广西新闻网",
+    "domain": "website",
+    "intent": "OPEN",
+    "slots": {
+      "name": "广西新闻网"
+    }
+  },
+  {
+    "text": "今天晚上天津卫视放什么年岁月",
+    "domain": "epg",
+    "intent": "QUERY",
+    "slots": {
+      "datetime_date": "今天",
+      "datetime_time": "晚上",
+      "tvchannel": "天津卫视"
+    }
+  },
+  {
+    "text": "自演艺，羊肉怎么做？",
+    "domain": "cookbook",
+    "intent": "QUERY",
+    "slots": {
+      "ingredient": "羊肉"
+    }
+  },
+  {
+    "text": "打给曾玮文",
+    "domain": "telephone",
+    "intent": "DIAL",
+    "slots": {
+      "name": "曾玮文"
+    }
+  },
+  {
+    "text": "怎样做糖醋排骨时，去吃饭洗澡了。",
+    "domain": "cookbook",
+    "intent": "QUERY",
+    "slots": {
+      "dishName": "糖醋排骨"
+    }
+  },
+  {
+    "text": "怎么做卤猪脚",
+    "domain": "cookbook",
+    "intent": "QUERY",
+    "slots": {
+      "dishName": "卤猪脚"
+    }
+  },
+  {
+    "text": "帮我切换到湖南卫视",
+    "domain": "tvchannel",
+    "intent": "PLAY",
+    "slots": {
+      "name": "湖南卫视"
+    }
+  },
+  {
+    "text": "打开浦发银行",
+    "domain": "website",
+    "intent": "OPEN",
+    "slots": {
+      "name": "浦发银行"
+    }
+  },
+  {
+    "text": "酸辣汤的做法。",
+    "domain": "cookbook",
+    "intent": "QUERY",
+    "slots": {
+      "dishName": "酸辣汤"
+    }
+  },
+  {
+    "text": "打电话给my god",
+    "domain": "telephone",
+    "intent": "DIAL",
+    "slots": {
+      "name": "my god"
+    }
+  },
+  {
+    "text": "怎么弄红烧肉哦？",
+    "domain": "cookbook",
+    "intent": "QUERY",
+    "slots": {
+      "dishName": "红烧肉"
+    }
+  },
+  {
+    "text": "给德师傅发短信",
+    "domain": "message",
+    "intent": "SEND",
+    "slots": {
+      "name": "德师傅"
+    }
+  },
+  {
+    "text": "要怎么煮饭。",
+    "domain": "cookbook",
+    "intent": "QUERY",
+    "slots": {
+      "dishName": "饭"
+    }
+  },
+  {
+    "text": "青鱼做法视频",
+    "domain": "cookbook",
+    "intent": "QUERY",
+    "slots": {
+      "ingredient": "青鱼"
+    }
+  },
+  {
+    "text": "明天南京到徐州的火车",
+    "domain": "train",
+    "intent": "QUERY",
+    "slots": {
+      "endLoc_city": "徐州",
+      "startDate_date": "明天",
+      "startLoc_city": "南京"
+    }
+  },
+  {
+    "text": "今晚看什么电影？",
+    "domain": "epg",
+    "intent": "QUERY",
+    "slots": {
+      "category": "电影",
+      "datetime_time": "今晚"
+    }
+  },
+  {
+    "text": "我要当八路军",
+    "domain": "video",
+    "intent": "QUERY",
+    "slots": {
+      "name": "我要当八路军"
+    }
+  },
+  {
+    "text": "正韵打开相机",
+    "domain": "app",
+    "intent": "LAUNCH",
+    "slots": {
+      "name": "相机"
+    }
+  },
+  {
+    "text": "武林风视频",
+    "domain": "video",
+    "intent": "QUERY",
+    "slots": {
+      "name": "武林风"
+    }
+  },
+  {
+    "text": "招商银行港股的股价",
+    "domain": "stock",
+    "intent": "QUERY",
+    "slots": {
+      "name": "招商银行"
+    }
+  },
+  {
+    "text": "来一首有点舍不得",
+    "domain": "music",
+    "intent": "PLAY",
+    "slots": {
+      "song": "有点舍不得"
+    }
+  },
+  {
+    "text": "帮我搜索一下红烧排骨。",
+    "domain": "cookbook",
+    "intent": "QUERY",
+    "slots": {
+      "dishName": "红烧排骨"
+    }
+  },
+  {
+    "text": "打开德州扑克",
+    "domain": "app",
+    "intent": "LAUNCH",
+    "slots": {
+      "name": "德州扑克"
+    }
+  },
+  {
+    "text": "最近的新电影有哪些？",
+    "domain": "cinemas",
+    "intent": "QUERY",
+    "slots": {}
+  },
+  {
+    "text": "你曾爱过我吗用英语怎么说",
+    "domain": "translation",
+    "intent": "TRANSLATION",
+    "slots": {
+      "content": "你曾爱过我吗",
+      "target": "英语"
+    }
+  },
+  {
+    "text": "朗读咏雪",
+    "domain": "poetry",
+    "intent": "QUERY",
+    "slots": {
+      "name": "咏雪"
+    }
+  },
+  {
+    "text": "情景剧电视剧",
+    "domain": "video",
+    "intent": "QUERY",
+    "slots": {
+      "category": "电视剧",
+      "tag": "情景"
+    }
+  },
+  {
+    "text": "小杰炖蘑菇怎么做？",
+    "domain": "cookbook",
+    "intent": "QUERY",
+    "slots": {
+      "dishName": "炖蘑菇"
+    }
+  },
+  {
+    "text": "腾讯公司的股票",
+    "domain": "stock",
+    "intent": "QUERY",
+    "slots": {
+      "name": "腾讯"
+    }
+  },
+  {
+    "text": "念首诗听一下。",
+    "domain": "poetry",
+    "intent": "DEFAULT",
+    "slots": {}
+  },
+  {
+    "text": "播放最近的新闻。",
+    "domain": "news",
+    "intent": "PLAY",
+    "slots": {
+      "datetime_date": "最近"
+    }
+  },
+  {
+    "text": "查最近的电影。",
+    "domain": "cinemas",
+    "intent": "QUERY",
+    "slots": {}
+  },
+  {
+    "text": "面条怎么样煮啊？",
+    "domain": "cookbook",
+    "intent": "QUERY",
+    "slots": {
+      "ingredient": "面条"
+    }
+  },
+  {
+    "text": "最美的时光",
+    "domain": "video",
+    "intent": "QUERY",
+    "slots": {
+      "name": "最美的时光"
+    }
+  },
+  {
+    "text": "跳换到湖南卫视",
+    "domain": "tvchannel",
+    "intent": "PLAY",
+    "slots": {
+      "name": "湖南卫视"
+    }
+  },
+  {
+    "text": "我想跟今天的新闻。",
+    "domain": "news",
+    "intent": "PLAY",
+    "slots": {
+      "datetime_date": "今天"
+    }
+  },
+  {
+    "text": "风魔炒鱼香肉丝。",
+    "domain": "cookbook",
+    "intent": "QUERY",
+    "slots": {
+      "dishName": "风魔炒鱼香肉丝"
+    }
+  },
+  {
+    "text": "查下银星能源股票",
+    "domain": "stock",
+    "intent": "QUERY",
+    "slots": {
+      "name": "银星能源"
+    }
+  },
+  {
+    "text": "个来一首路灯下的小姑娘。",
+    "domain": "music",
+    "intent": "PLAY",
+    "slots": {
+      "song": "路灯下的小姑娘"
+    }
+  },
+  {
+    "text": "南光集团怎么走",
+    "domain": "map",
+    "intent": "ROUTE",
+    "slots": {
+      "endLoc_poi": "南光集团"
+    }
+  },
+  {
+    "text": "帮我找到微信",
+    "domain": "app",
+    "intent": "QUERY",
+    "slots": {
+      "name": "微信"
+    }
+  },
+  {
+    "text": "蝎子王蝎子王",
+    "domain": "video",
+    "intent": "QUERY",
+    "slots": {
+      "name": "蝎子王"
+    }
+  },
+  {
+    "text": "葱爆羊肉的做法。",
+    "domain": "cookbook",
+    "intent": "QUERY",
+    "slots": {
+      "dishName": "葱爆羊肉"
+    }
+  },
+  {
+    "text": "我想知道科大讯飞的市值",
+    "domain": "stock",
+    "intent": "QUERY",
+    "slots": {
+      "name": "科大讯飞"
+    }
+  },
+  {
+    "text": "美国电影敢死队二",
+    "domain": "video",
+    "intent": "QUERY",
+    "slots": {
+      "area": "美国",
+      "category": "电影",
+      "name": "敢死队二"
+    }
+  },
+  {
+    "text": "打电话给hello word",
+    "domain": "telephone",
+    "intent": "DIAL",
+    "slots": {
+      "name": "hello word"
+    }
+  },
+  {
+    "text": "打开网页小米论坛",
+    "domain": "website",
+    "intent": "OPEN",
+    "slots": {
+      "name": "小米论坛"
+    }
+  },
+  {
+    "text": "我要听宋词。",
+    "domain": "poetry",
+    "intent": "QUERY",
+    "slots": {
+      "dynasty": "宋"
+    }
+  },
+  {
+    "text": "国足最新赛程。",
+    "domain": "match",
+    "intent": "QUERY",
+    "slots": {
+      "category": "国足"
+    }
+  },
+  {
+    "text": "发条短信给张亚东",
+    "domain": "message",
+    "intent": "SEND",
+    "slots": {
+      "name": "张亚东"
+    }
+  },
+  {
+    "text": "鱼香肉丝哦",
+    "domain": "cookbook",
+    "intent": "QUERY",
+    "slots": {
+      "dishName": "鱼香肉丝"
+    }
+  },
+  {
+    "text": "那给我背静夜思。",
+    "domain": "poetry",
+    "intent": "QUERY",
+    "slots": {
+      "name": "静夜思"
+    }
+  },
+  {
+    "text": "可以帮买火车票吗",
+    "domain": "train",
+    "intent": "QUERY",
+    "slots": {}
+  },
+  {
+    "text": "江苏影视",
+    "domain": "tvchannel",
+    "intent": "PLAY",
+    "slots": {
+      "name": "江苏影视"
+    }
+  },
+  {
+    "text": "蓝精灵电影",
+    "domain": "video",
+    "intent": "QUERY",
+    "slots": {
+      "category": "电影",
+      "name": "蓝精灵"
+    }
+  },
+  {
+    "text": "厦门到上海的机票",
+    "domain": "flight",
+    "intent": "QUERY",
+    "slots": {
+      "endLoc_city": "上海",
+      "startLoc_city": "厦门"
+    }
+  },
+  {
+    "text": "念一首唐诗给我听。",
+    "domain": "poetry",
+    "intent": "QUERY",
+    "slots": {
+      "dynasty": "唐"
+    }
+  },
+  {
+    "text": "保险，酸辣土豆丝怎么炒？",
+    "domain": "cookbook",
+    "intent": "QUERY",
+    "slots": {
+      "dishName": "酸辣土豆丝"
+    }
+  },
+  {
+    "text": "你酸辣土豆丝怎么做？",
+    "domain": "cookbook",
+    "intent": "QUERY",
+    "slots": {
+      "dishName": "酸辣土豆丝"
+    }
+  },
+  {
+    "text": "那你告诉我最新的热门电影吧。",
+    "domain": "cinemas",
+    "intent": "QUERY",
+    "slots": {}
+  },
+  {
+    "text": "替我答复这条邮件",
+    "domain": "email",
+    "intent": "REPLY",
+    "slots": {}
+  },
+  {
+    "text": "打电话零八",
+    "domain": "telephone",
+    "intent": "DIAL",
+    "slots": {}
+  },
+  {
+    "text": "女性时尚",
+    "domain": "tvchannel",
+    "intent": "PLAY",
+    "slots": {
+      "name": "女性时尚"
+    }
+  },
+  {
+    "text": "最新有什么热门电影",
+    "domain": "video",
+    "intent": "QUERY",
+    "slots": {
+      "category": "电影",
+      "popularity": "热门",
+      "timeDescr": "最新"
+    }
+  },
+  {
+    "text": "给杨燕姐发短信",
+    "domain": "message",
+    "intent": "SEND",
+    "slots": {
+      "name": "杨燕姐"
+    }
+  },
+  {
+    "text": "猜个谜语哦。",
+    "domain": "riddle",
+    "intent": "QUERY",
+    "slots": {
+      "category": "谜语"
+    }
+  },
+  {
+    "text": "答复，我要听新闻。",
+    "domain": "news",
+    "intent": "PLAY",
+    "slots": {}
+  },
+  {
+    "text": "看电影啊",
+    "domain": "video",
+    "intent": "QUERY",
+    "slots": {
+      "category": "电影"
+    }
+  },
+  {
+    "text": "帮我上下新浪网",
+    "domain": "website",
+    "intent": "OPEN",
+    "slots": {
+      "name": "新浪网"
+    }
+  },
+  {
+    "text": "随便唱几首歌吧",
+    "domain": "music",
+    "intent": "PLAY",
+    "slots": {}
+  },
+  {
+    "text": "动物谜语。",
+    "domain": "riddle",
+    "intent": "QUERY",
+    "slots": {
+      "category": "动物谜语"
+    }
+  },
+  {
+    "text": "给我讲个长篇小说。",
+    "domain": "novel",
+    "intent": "QUERY",
+    "slots": {}
+  },
+  {
+    "text": "烧排骨汤需要什么调料？",
+    "domain": "cookbook",
+    "intent": "QUERY",
+    "slots": {
+      "dishName": "烧排骨汤"
+    }
+  },
+  {
+    "text": "今天什么好看电影？",
+    "domain": "epg",
+    "intent": "QUERY",
+    "slots": {
+      "category": "电影",
+      "datetime_date": "今天"
+    }
+  },
+  {
+    "text": "我想看中央十三频道",
+    "domain": "tvchannel",
+    "intent": "PLAY",
+    "slots": {
+      "name": "中央十三频道"
+    }
+  },
+  {
+    "text": "桂花糕。",
+    "domain": "cookbook",
+    "intent": "QUERY",
+    "slots": {
+      "dishName": "桂花糕"
+    }
+  },
+  {
+    "text": "炒鸡蛋，需要，哪些材料？",
+    "domain": "cookbook",
+    "intent": "QUERY",
+    "slots": {
+      "dishName": "炒鸡蛋"
+    }
+  },
+  {
+    "text": "请帮我调频97.5湖南人民广播电台文艺台",
+    "domain": "radio",
+    "intent": "LAUNCH",
+    "slots": {
+      "code": "97.5",
+      "name": "湖南人民广播电台文艺台"
+    }
+  },
+  {
+    "text": "到无锡到北京的火车有几趟了",
+    "domain": "train",
+    "intent": "QUERY",
+    "slots": {
+      "endLoc_city": "北京",
+      "startLoc_city": "无锡"
+    }
+  },
+  {
+    "text": "美国大使馆在哪",
+    "domain": "map",
+    "intent": "POSITION",
+    "slots": {
+      "location_poi": "美国大使馆"
+    }
+  },
+  {
+    "text": "给我念首古诗。",
+    "domain": "poetry",
+    "intent": "DEFAULT",
+    "slots": {}
+  },
+  {
+    "text": "你能搜到小说不？",
+    "domain": "novel",
+    "intent": "QUERY",
+    "slots": {}
+  },
+  {
+    "text": "红烧鱼怎么烧啊？",
+    "domain": "cookbook",
+    "intent": "QUERY",
+    "slots": {
+      "dishName": "红烧鱼"
+    }
+  },
+  {
+    "text": "咸鸡，的制作方法。",
+    "domain": "cookbook",
+    "intent": "QUERY",
+    "slots": {
+      "ingredient": "咸鸡"
+    }
+  },
+  {
+    "text": "明天到郑州的火车",
+    "domain": "train",
+    "intent": "QUERY",
+    "slots": {
+      "endLoc_city": "郑州",
+      "startDate_date": "明天"
+    }
+  },
+  {
+    "text": "给我背一首唐诗李白写的",
+    "domain": "poetry",
+    "intent": "QUERY",
+    "slots": {
+      "author": "李白",
+      "dynasty": "唐"
+    }
+  },
+  {
+    "text": "狄仁杰之通天帝国视频",
+    "domain": "video",
+    "intent": "QUERY",
+    "slots": {
+      "name": "狄仁杰之通天帝国"
+    }
+  },
+  {
+    "text": "我想听听钓鱼岛的新闻。",
+    "domain": "news",
+    "intent": "PLAY",
+    "slots": {
+      "keyword": "钓鱼岛"
+    }
+  },
+  {
+    "text": "讲一个谜语和答案。",
+    "domain": "riddle",
+    "intent": "QUERY",
+    "slots": {
+      "category": "谜语"
+    }
+  },
+  {
+    "text": "无锡到阜阳怎么坐汽车？",
+    "domain": "bus",
+    "intent": "QUERY",
+    "slots": {
+      "Dest": "阜阳",
+      "Src": "无锡"
+    }
+  },
+  {
+    "text": "给原波发短信",
+    "domain": "message",
+    "intent": "SEND",
+    "slots": {
+      "name": "原波"
+    }
+  }
+]
