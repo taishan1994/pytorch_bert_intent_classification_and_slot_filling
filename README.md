@@ -7,7 +7,7 @@
 依赖：
 ```python
 pytorch==1.6+
-transformers==4.x+
+transformers==4.5.0
 ```
 运行指令：
 ```python
