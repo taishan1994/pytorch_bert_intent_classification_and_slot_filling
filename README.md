@@ -4,6 +4,7 @@
 # 说明
 基本思路就是：分类+序列标注（命名实体识别）同时训练。
 使用的预训练模型：hugging face上的chinese-bert-wwm-ext
+如果要重新训练，将config.py里面的load_model设置为False
 依赖：
 ```python
 pytorch==1.6+
