@@ -165,7 +165,7 @@ class Trainer:
             token_output = np.argmax(token_output, -1)
             # print(seq_output, token_output)
             seq_output = seq_output[0]
-            token_output = token_output[0][1:len(text)-1]
+            token_output = token_output[0][1:len(text)+1]
             token_output = [self.config.id2nerlabel[i] for i in token_output]
             print('意图：', self.config.id2seqlabel[seq_output])
             print('槽位：', str([(i[0],text[i[1]:i[2]+1], i[1], i[2]) for i in get_entities(token_output)]))
