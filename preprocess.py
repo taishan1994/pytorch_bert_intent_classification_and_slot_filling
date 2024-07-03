@@ -67,7 +67,7 @@ def convert_example_to_feature(ex_idx, example, tokenizer, config):
             for i in range(start + 1, end):
                 token_label_ids[i] = config.nerlabel2id['I-' + k]
     if len(token_label_ids) >= config.max_len - 2:
-        token_label_ids = [0] + token_label_ids[config.max_len - 2] + [0]
+        token_label_ids = [0] + token_label_ids[:config.max_len - 2] + [0]
     else:
         token_label_ids = [0] + token_label_ids + [0] + [0] * (config.max_len - len(token_label_ids) - 2)
     # print(token_label_ids)
