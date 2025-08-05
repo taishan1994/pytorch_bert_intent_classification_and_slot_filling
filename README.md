@@ -10,7 +10,7 @@
 pytorch==1.6+
 transformers==4.5.0
 ```
-运行指令：
+运行指令：先把config.py里面的train=True设置为True进行训练，训练完再设置为False进行测试。
 ```python
 python main.py
 ```
